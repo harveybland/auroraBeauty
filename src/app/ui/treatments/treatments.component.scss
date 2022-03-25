@@ -27,23 +27,27 @@
   top: 0;
 }
 
-.test {
+.div_block-1 {
+  position: relative;
+}
+
+.absolute_panel {
   position: absolute;
   top: 200px;
   right: 282px;
 }
 
-.test1 {
+.panel1 {
   top: 230px;
   right: 380px;
 }
 
-.test2 {
+.panel2 {
   top: 130px;
   right: 530px;
 }
 
-.test3 {
+.panel3 {
   top: 230px;
   left: 471px;
 }
