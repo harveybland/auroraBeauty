@@ -10,11 +10,11 @@ const routes: Routes = [
     component: UiComponent,
     children: [
       {
-        path: 'home',
+        path: '/auroraBeauty/home',
         loadChildren: () => import('./home/home.module').then(o => o.HomeModule),
       },
       {
-        path: 'about',
+        path: '/auroraBeauty/about',
         loadChildren: () => import('./about/about.module').then(o => o.AboutModule),
       },
       {
