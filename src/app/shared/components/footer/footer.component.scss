@@ -34,3 +34,27 @@ footer {
     color: #ffcd36;
   }
 }
+
+@media only screen and (max-width: 426px) {
+  footer {
+    padding: 25px 0 15px 0;
+  }
+
+  .footerPages {
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      li {
+        padding-bottom: 3px;
+        width: 115px;
+        border-bottom: 1px solid #fff;
+        text-align: center;
+        margin-bottom: 20px;
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+}

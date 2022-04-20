@@ -35,12 +35,14 @@ nav {
     font-size: 19px;
     color: #fff;
     font-family: "Open Sans", sans-serif;
-  }
-  a:hover {
-    cursor: pointer;
-    color: #ffcd36;
-    border-bottom: 3px solid #ffcd36;
-    background-color: hsla(0, 0%, 100%, 0.1);
+    &:hover {
+      cursor: pointer;
+      color: #ffcd36;
+      border-bottom: 3px solid #ffcd36;
+    }
+    &.is-active {
+      background-color: #585657;
+    }
   }
 }
 

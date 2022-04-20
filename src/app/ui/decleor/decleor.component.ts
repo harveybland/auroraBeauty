@@ -24,7 +24,7 @@ export class DecleorComponent implements OnInit {
         end: 'bottom',
         pin: true,
         scrub: true,
-        markers: true
+        // markers: true
       }
 
     })

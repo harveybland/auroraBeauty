@@ -12,11 +12,24 @@
       </div>
       <div routerLink="/decleor" [routerLinkActive]="'is-active'">DECLÉOR</div>
       <div class="contact" [routerLinkActive]="'is-active'">Contact</div> -->
-      <a href="/home"><div>Home</div></a>
-      <a href="/about"><div>About Us</div></a>
-      <a href="/treatments"> <div>Treatments</div></a>
-      <a href="/decleor"><div>DECLÉOR</div></a>
-      <a href="/contact" class="contact"><div>Contact</div></a>
+      <a routerLink="/home" [routerLinkActive]="['is-active']"
+        ><div>Home</div></a
+      >
+      <a routerLink="/about" [routerLinkActive]="['is-active']"
+        ><div>About Us</div></a
+      >
+      <a routerLink="/treatments" [routerLinkActive]="['is-active']">
+        <div>Treatments</div></a
+      >
+      <a routerLink="/decleor" [routerLinkActive]="['is-active']"
+        ><div>DECLÉOR</div></a
+      >
+      <a
+        routerLink="/contact"
+        [routerLinkActive]="['is-active']"
+        class="contact"
+        ><div>Contact</div></a
+      >
     </nav>
     <div class="burger">
       <button onclick="dropMenu()">

@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         start: 'top 60%',
         end: 'bottom 30% ',
         scrub: true,
-        markers: true,
+        // markers: true,
       },
       y: -100,
       opacity: 1,
@@ -37,7 +37,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         start: 'top 60%',
         end: 'bottom 30% ',
         scrub: true,
-        markers: true,
+        // markers: true,
       },
       y: -100,
       opacity: 1,
@@ -48,7 +48,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         start: 'top 60%',
         end: 'bottom 30% ',
         scrub: true,
-        markers: true,
+        // markers: true,
       },
       y: -100,
       opacity: 1,
@@ -71,7 +71,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         trigger: section,
         start: 'top 60%',
         end: 'bottom 30%',
-        markers: true,
+        // markers: true,
         onEnter: () =>
           gsap.to(elems, {
             y: 0,
@@ -109,7 +109,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         start: 'top 50%',
         end: 'bottom 10%',
         scrub: true,
-        markers: true,
+        // markers: true,
       },
     });
   }

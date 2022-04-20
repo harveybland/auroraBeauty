@@ -1,58 +1,23 @@
-.comparisonSection {
-  position: relative;
-  background-color: #585657;
-  padding-bottom: 56.25%; /* to maintain aspect ratio (responsive!) */
-}
-.comparisonImage {
-  width: 100%;
-  height: 100%;
-}
-
-.afterImage {
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  transform: translate(100%, 0px);
-}
-.afterImage img {
-  transform: translate(-100%, 0px);
-}
-
-.beforeImage img {
-  height: 630px !important;
-}
-.comparisonImage img {
-  width: 100%;
-  position: absolute;
-  top: 0;
-}
-
 .div_block-1 {
   position: relative;
 }
 
-.absolute_panel {
-  position: absolute;
-  top: 200px;
-  right: 282px;
-}
-
-.panel1 {
-  top: 230px;
-  right: 380px;
-}
-
-.panel2 {
-  top: 130px;
-  right: 530px;
-}
-
-.panel3 {
-  top: 230px;
-  left: 471px;
-}
-
-.help {
-  position: relative;
-  margin-top: -200px;
+.template-header {
+  display: grid;
+  grid-template-columns: 1fr 180px 180px 180px;
+  padding: 15px 20px;
+  background: #ffcd36;
+  color: #000;
+  font-size: 1.5rem;
+  margin-top: 40px;
+  top: 105px;
+  z-index: 3;
+  position: sticky;
+  border-radius: 4px;
+  .col-access {
+    text-align: center;
+  }
+  .col-id {
+    text-align: center;
+  }
 }

@@ -33,7 +33,7 @@ export class TreatmentsComponent implements OnInit {
           scrub: true,
           pin: true,
           anticipatePin: 1,
-          markers: true,
+          // markers: true,
         },
         defaults: { ease: 'none' },
       });
