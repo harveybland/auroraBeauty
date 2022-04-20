@@ -38,7 +38,9 @@ nav {
     &:hover {
       cursor: pointer;
       color: #ffcd36;
-      border-bottom: 3px solid #ffcd36;
+      border-bottom: 4px solid #ffcd36;
+      transition: all ease-in-out 250ms;
+      margin-bottom: -4px;
     }
     &.is-active {
       background-color: #585657;
@@ -49,18 +51,18 @@ nav {
 .contact {
   border-radius: 20%/50%;
   height: 2.2em !important;
-  border: 3px solid #fff;
-}
-
-.contact:hover {
-  background-color: #585657 !important;
-  border: 3px solid #ffcd36;
-}
-
-.is-active {
-  color: #ffcd36;
-  border-bottom: 3px solid #ffcd36;
-  background-color: hsla(0, 0%, 100%, 0.1);
+  border: 3px solid #fff !important;
+  &:hover {
+    background-color: #585657 !important;
+    border: 3px solid #ffcd36 !important;
+    transition: all ease-in-out 250ms;
+    margin-bottom: 0px !important;
+  }
+  &.is-active {
+    color: #ffcd36;
+    border: 3px solid #ffcd36 !important;
+    background-color: hsla(0, 0%, 100%, 0.1);
+  }
 }
 
 .burger {
