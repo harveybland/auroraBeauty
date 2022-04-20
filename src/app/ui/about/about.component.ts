@@ -12,12 +12,7 @@ export class AboutComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    gsap.registerPlugin(ScrollTrigger);
+
   }
-
-
-
-
-
 
 }

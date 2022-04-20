@@ -43,7 +43,10 @@ nav {
       margin-bottom: -4px;
     }
     &.is-active {
+      color: #ffcd36;
+      border-bottom: 4px solid #ffcd36;
       background-color: #585657;
+      margin-bottom: -4px;
     }
   }
 }
@@ -62,6 +65,7 @@ nav {
     color: #ffcd36;
     border: 3px solid #ffcd36 !important;
     background-color: hsla(0, 0%, 100%, 0.1);
+    margin-bottom: 0px !important;
   }
 }
 

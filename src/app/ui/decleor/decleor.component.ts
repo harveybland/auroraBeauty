@@ -12,26 +12,9 @@ export class DecleorComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    gsap.registerPlugin(ScrollTrigger);
-    this.pinned();
+
   }
-  pinned() {
-    const tl = gsap.timeline({
 
-      scrollTrigger: {
-        trigger: 'section.two',
-        start: 'top top',
-        end: 'bottom',
-        pin: true,
-        scrub: true,
-        // markers: true
-      }
-
-    })
-
-    tl
-      .to('.box', { y: 300 }, 0)
-  }
 
 
 }
