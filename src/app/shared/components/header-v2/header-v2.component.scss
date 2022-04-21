@@ -6,6 +6,7 @@ nav {
   border-bottom: 1.5px solid #000;
   display: flex;
   width: 100%;
+  color: #fff;
   height: 6.6rem;
   justify-content: space-around;
   align-items: center;
@@ -53,7 +54,7 @@ nav {
 
 /*Buttons Styling*/
 
-.login-button {
+.contact-button {
   padding: 0.6rem 0.8rem;
   margin-left: 2vw;
   font-size: 1rem;
@@ -63,10 +64,10 @@ nav {
   border-radius: 2em;
 }
 
-.login-button:hover {
+.contact-button:hover {
   color: #fff;
-  background-color: #dd5f24 !important;
-  border: 1.5px solid #dd5f24;
+  background-color: #ffcd36 !important;
+  border: 1.5px solid #ffcd36;
   transition: all ease-in-out 350ms;
 }
 
