@@ -13,13 +13,11 @@ footer {
   text-align: center;
   font-size: 22px;
   font-weight: bold;
-  padding: 10px 0;
+  padding: 10px 20px;
 }
 
 .footerPages {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 10px 0;
+  padding: 10px 20px;
   color: #fff;
   ul {
     display: flex;
@@ -38,7 +36,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 764px) {
   footer {
     padding: 25px 0 15px 0;
   }

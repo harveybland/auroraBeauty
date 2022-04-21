@@ -23,7 +23,12 @@
       <a routerLink="/decleor" [routerLinkActive]="['is-active']">DECLÉOR</a>
     </li>
     <li [ngClass]="active ? 'fade' : ''">
-      <a class="contact-button" href="/contact">Contact</a>
+      <a routerLink="/contact" [routerLinkActive]="['is-active']">Contact</a>
+    </li>
+    <li [ngClass]="active ? 'fade' : ''">
+      <a class="contact-button" href="https://aurorabeautyclitheroe.book.app/"
+        >Book now</a
+      >
     </li>
   </ul>
 </nav>

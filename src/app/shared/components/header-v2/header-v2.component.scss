@@ -35,6 +35,12 @@ nav {
   text-decoration: none;
   transition: all ease-in-out 350ms;
   padding: 10px;
+  &.is-active {
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+  }
 }
 
 .nav-links li a:hover {
@@ -62,6 +68,11 @@ nav {
   background-color: transparent;
   border: 1.5px solid #f2f5f7;
   border-radius: 2em;
+  &.activebtn {
+    color: #000;
+    background-color: #ffcd36 !important;
+    border: 1.5px solid #ffcd36;
+  }
 }
 
 .contact-button:hover {
