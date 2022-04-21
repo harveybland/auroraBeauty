@@ -1,3 +1,4 @@
+import { HeaderV2Component } from './../../components/header-v2/header-v2.component';
 import { FooterComponent } from './../../components/footer/footer.component';
 import { HeaderComponent } from './../../components/header/header.component';
 import { RouterModule } from '@angular/router';
@@ -11,11 +12,13 @@ import { CommonModule } from '@angular/common';
   ],
   declarations: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderV2Component
   ],
   exports: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderV2Component
   ]
 })
 export class CoreModule { }

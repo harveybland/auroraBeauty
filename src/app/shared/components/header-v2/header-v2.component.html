@@ -1,0 +1,29 @@
+<nav>
+  <div>
+    <img class="logo" src="assets/images/shared/logo6.png" />
+  </div>
+  <div class="hamburger" [ngClass]="active ? 'toggle' : ''" (click)="burger()">
+    <div class="bars1"></div>
+    <div class="bars2"></div>
+    <div class="bars3"></div>
+  </div>
+  <ul class="nav-links" [ngClass]="active ? 'open' : ''">
+    <li [ngClass]="active ? 'fade' : ''">
+      <a routerLink="/home" [routerLinkActive]="['is-active']">Home</a>
+    </li>
+    <li [ngClass]="active ? 'fade' : ''">
+      <a routerLink="/about" [routerLinkActive]="['is-active']">About Us</a>
+    </li>
+    <li [ngClass]="active ? 'fade' : ''">
+      <a routerLink="/treatments" [routerLinkActive]="['is-active']">
+        Treatments</a
+      >
+    </li>
+    <li [ngClass]="active ? 'fade' : ''">
+      <a routerLink="/decleor" [routerLinkActive]="['is-active']">DECLÉOR</a>
+    </li>
+    <li [ngClass]="active ? 'fade' : ''">
+      <a class="login-button" href="/contact">Contact</a>
+    </li>
+  </ul>
+</nav>

@@ -2,14 +2,17 @@
   position: relative;
 }
 
+.template-wrapper {
+  padding: 50 20px;
+}
+
 .template-header {
   display: grid;
-  grid-template-columns: 1fr 180px 180px 180px;
+  grid-template-columns: 1fr 160px 160px 160px;
   padding: 15px 20px;
   background: #ffcd36;
   color: #000;
   font-size: 1.5rem;
-  margin-top: 40px;
   top: 105px;
   z-index: 3;
   position: sticky;
@@ -17,7 +20,19 @@
   .col-access {
     text-align: center;
   }
-  .col-id {
+}
+
+.pink {
+  background-color: #e0bdb9;
+}
+
+.template-info {
+  display: grid;
+  grid-template-columns: 1fr 160px 160px 160px;
+  color: #333;
+  padding: 15px 20px;
+  font-size: 1.3rem;
+  .info {
     text-align: center;
   }
 }

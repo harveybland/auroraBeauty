@@ -15,7 +15,39 @@
   </head>
   <body>
     <app-root></app-root>
+
     <script type="text/javascript">
+      waitForElm(".iamhere").then((elm) => {
+        alert(123);
+        BookAppWidgetReady(function () {
+          alert(456);
+          BookApp.widget(
+            "#bookapp-reservation-widget",
+            "Aurorabeautyclitheroe"
+          );
+        });
+      });
+
+      function waitForElm(selector) {
+        return new Promise((resolve) => {
+          if (document.querySelector(selector)) {
+            return resolve(document.querySelector(selector));
+          }
+
+          const observer = new MutationObserver((mutations) => {
+            if (document.querySelector(selector)) {
+              resolve(document.querySelector(selector));
+              observer.disconnect();
+            }
+          });
+
+          observer.observe(document.body, {
+            childList: true,
+            subtree: true,
+          });
+        });
+      }
+
       !(function (e, t, n) {
         var u = n.queue || [];
         (e.BookAppWidgetReady = n =
@@ -38,9 +70,6 @@
           ),
           i.parentNode.insertBefore(a, i);
       })(window, document, window.BookAppWidgetReady || function () {});
-      BookAppWidgetReady(function () {
-        BookApp.widget("#bookapp-reservation-widget", "Aurorabeautyclitheroe");
-      });
     </script>
   </body>
 </html>
