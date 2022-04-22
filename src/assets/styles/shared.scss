@@ -79,14 +79,21 @@
   padding: 20px 0;
 }
 
+.p-tL {
+  padding-top: 30px;
+}
+
 .m-r {
   margin-right: 20px;
 }
 
 .sub-title {
+  border-bottom: 2px solid #ffcd36;
+  padding-bottom: 7px;
+  width: 300px;
+  font-size: 1.6rem;
   text-align: center;
-  font-size: 1.8rem;
-  padding: 30px 20px;
+  margin: 0 auto 30px;
   position: relative;
 }
 
