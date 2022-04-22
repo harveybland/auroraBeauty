@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./assets/styles/shared.scss";
+@import "~@glidejs/glide/src/assets/sass/glide.core";
+@import "~@glidejs/glide/src/assets/sass/glide.theme";
 
 * {
   padding: 0;
@@ -26,4 +28,18 @@ a {
   position: relative;
   text-decoration: none;
   color: inherit;
+}
+
+.glide__arrow--left {
+  left: -2em;
+}
+
+.glide__arrow--right {
+  right: -2em;
+}
+
+.glide__arrow {
+  color: #000 !important;
+  background-color: #ffcd36 !important;
+  border: 2px solid #000;
 }

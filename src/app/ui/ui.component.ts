@@ -10,6 +10,9 @@ export class UiComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
+
+
 
 }
