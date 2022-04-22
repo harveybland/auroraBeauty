@@ -7,15 +7,28 @@
   img {
     max-width: 625px;
   }
-  .contact-info {
+  .contact-details {
     padding: 20px;
+    h2 {
+      padding-bottom: 10px;
+      color: #585657;
+    }
+  }
+  .contact-info {
+    padding: 0 0 20px 0;
     color: #585657;
     font-size: 1.3rem;
+    color: #585657;
   }
 }
 
 .hours-wrapper {
   margin-bottom: 60px;
+  padding: 0 20px;
+}
+
+.hours-wrapper-sm {
+  display: none;
 }
 
 .template-hour {
@@ -24,7 +37,7 @@
   padding: 15px 20px;
   background: #ffcd36;
   color: #000;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   top: 105px;
   z-index: 3;
   position: sticky;
@@ -39,16 +52,27 @@
   grid-template-columns: 1fr 115px 140px 140px 140px 135px 120px 115px;
   color: #333;
   padding: 15px 20px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   background-color: #fff;
   .info {
     text-align: center;
   }
 }
 
+.template-hour-sm {
+  grid-template-columns: 1fr 140px;
+}
+
+.template-hours-info-sm {
+  grid-template-columns: 1fr 140px;
+}
+
 @media screen and (max-width: 1015px) {
   .hours-wrapper {
     display: none;
+  }
+  .hours-wrapper-sm {
+    display: block;
   }
 }
 
@@ -61,6 +85,11 @@
   .contact {
     flex-direction: column;
     align-items: center;
+    .contact-details {
+      h2 {
+        text-align: center;
+      }
+    }
     .contact-info {
       display: flex;
     }
