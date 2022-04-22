@@ -1,1 +1,31 @@
+.hours-wrapper {
+  margin-bottom: 60px;
+}
 
+.template-hour {
+  display: grid;
+  grid-template-columns: 1fr 115px 140px 140px 140px 135px 120px 115px;
+  padding: 15px 20px;
+  background: #ffcd36;
+  color: #000;
+  font-size: 1.4rem;
+  top: 105px;
+  z-index: 3;
+  position: sticky;
+  border-radius: 4px;
+  .col-access {
+    text-align: center;
+  }
+}
+
+.template-hours-info {
+  display: grid;
+  grid-template-columns: 1fr 115px 140px 140px 140px 135px 120px 115px;
+  color: #333;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  background-color: #fff;
+  .info {
+    text-align: center;
+  }
+}

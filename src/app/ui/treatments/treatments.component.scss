@@ -4,7 +4,6 @@
 
 .template-wrapper {
   background-color: #fff;
-  margin-bottom: 50px;
 }
 
 .template-header {
@@ -13,7 +12,7 @@
   padding: 15px 20px;
   background: #ffcd36;
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   top: 105px;
   z-index: 3;
   position: sticky;
@@ -32,8 +31,24 @@
   grid-template-columns: 1fr 160px 160px 160px;
   color: #333;
   padding: 15px 20px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   .info {
     text-align: center;
+  }
+}
+
+.template-spacing {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 695px) {
+  .template-header {
+    grid-template-columns: 1fr 110px 110px 110px;
+  }
+
+  .template-info {
+    grid-template-columns: 1fr 110px 110px 110px;
   }
 }

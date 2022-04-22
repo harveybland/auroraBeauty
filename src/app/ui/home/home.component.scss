@@ -53,12 +53,31 @@
 
 .carousel-wrapper {
   max-width: 600px;
-  padding: 15px 30px 10px;
+  padding: 25px 30px 10px;
   background-color: #fff;
+}
+
+.gallary-wrapper {
+  background-color: #fff;
+  padding: 30px 0;
+}
+
+.reviews-wrapper {
+  background-color: #fff;
+  padding: 30px 0;
 }
 
 @media only screen and (max-width: 940px) {
   .main {
     height: 30vh;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .home-wrapper {
+    flex-direction: column;
+  }
+  .carousel-wrapper {
+    max-width: 100%;
   }
 }
