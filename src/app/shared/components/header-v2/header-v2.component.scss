@@ -98,7 +98,15 @@ nav {
 
 /*Responsive Adding Media Queries*/
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 976px) {
+  nav {
+    a {
+      font-size: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 944px) {
   nav {
     position: fixed;
     z-index: 3;
@@ -129,7 +137,7 @@ nav {
     pointer-events: none;
   }
   .nav-links.open {
-    clip-path: circle(1100px at 90% -10%);
+    clip-path: circle(1216px at 90% -10%);
     pointer-events: all;
   }
   .nav-links li {

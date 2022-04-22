@@ -41,6 +41,26 @@
   width: 100%;
   background-color: #f3f3f3;
   padding-top: 60px;
+  &.sm {
+    padding-top: 40px;
+  }
+}
+
+.book-now {
+  text-align: center;
+  padding: 5px 30px;
+  background-color: #585657;
+  font-size: 1.4rem;
+  margin-bottom: 50px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  color: #fff;
+  width: fit-content;
+  border-radius: 5px;
+  &:hover {
+    background-color: #ffcd36;
+    color: #000;
+  }
 }
 
 @media screen and (max-width: 695px) {

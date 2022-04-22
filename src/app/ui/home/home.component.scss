@@ -11,7 +11,7 @@
 .home-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 25px 0;
+  padding-bottom: 50px;
 }
 
 .carousel-item {
@@ -57,14 +57,25 @@
   background-color: #fff;
 }
 
-.gallary-wrapper {
+.images {
   background-color: #fff;
-  padding: 30px 0;
 }
 
-.reviews-wrapper {
-  background-color: #fff;
-  padding: 30px 0;
+.review-wrapper {
+  .review-flex {
+    display: flex;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  .review {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 10%);
+    p {
+      margin-bottom: 15px;
+    }
+  }
 }
 
 @media only screen and (max-width: 940px) {
