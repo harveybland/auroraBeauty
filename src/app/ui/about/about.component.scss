@@ -41,6 +41,7 @@
   img {
     width: 230px;
     height: 340px;
+    display: block;
     transition: 0.3s ease-in-out;
     &:hover {
       top: -2px;
@@ -96,7 +97,6 @@
     }
     &::after {
       content: "";
-      content: "";
       position: absolute;
       width: 35px;
       height: 3px;
@@ -117,7 +117,7 @@
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 632px) {
   .employee-wrapper {
     align-items: center;
     flex-direction: column;
