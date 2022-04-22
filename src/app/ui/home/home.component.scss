@@ -18,6 +18,11 @@
   height: 200px;
   width: 80px;
   background-color: #fff;
+  img {
+    width: 100%;
+    display: block;
+    height: 100%;
+  }
   &.green {
     background-color: green;
   }
