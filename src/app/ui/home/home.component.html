@@ -1,5 +1,28 @@
-<div class="containImg">
+<!-- <div class="containImg">
   <img src="../../../assets/images/banners/banner4.jpg" alt="" />
+</div> -->
+
+<div>
+  <ngx-glide
+    type="carousel"
+    [autoplay]="3000"
+    [perView]="1"
+    [showArrows]="false"
+    [hoverpause]="false"
+  >
+    <div style="height: 400px; width: 100%">
+      <img src="../../../assets/images/banners/banner4.jpg" alt="" />
+    </div>
+    <div style="height: 400px; width: 100%">
+      <img src="../../../assets/images/banners/banner7.jpg" alt="" />
+    </div>
+    <div style="height: 400px; width: 100%">
+      <img src="../../../assets/images/banners/banner4.jpg" alt="" />
+    </div>
+    <div style="height: 400px; width: 100%">
+      <img src="../../../assets/images/banners/banner7.jpg" alt="" />
+    </div>
+  </ngx-glide>
 </div>
 
 <div class="flex flex_col text">
@@ -21,14 +44,18 @@
 
 <div class="max-width home-wrapper">
   <div class="home-block">
-    <h2>Treatments</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum alias
-      repellat eos consequuntur vel cumque reiciendis similique eaque quam
-      labore, corporis laboriosam. Asperiores qui consequuntur illum, placeat
-      officiis vel!
-    </p>
-    <a routerLink="/treatments">Find out more</a>
+    <div>
+      <h2>Treatments</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum alias
+        repellat eos consequuntur vel cumque reiciendis similique eaque quam
+        labore, corporis laboriosam. Asperiores qui consequuntur illum, placeat
+        officiis vel!
+      </p>
+    </div>
+    <div>
+      <a routerLink="/treatments">Find out more</a>
+    </div>
   </div>
   <div class="carousel-wrapper">
     <ngx-glide
@@ -36,6 +63,7 @@
       [autoplay]="2000"
       [perView]="4"
       [showBullets]="false"
+      [showArrows]="false"
     >
       <div class="carousel-item">
         <img src="../../../assets/images/treatments/nails/nail5.jpg" alt="" />
@@ -83,14 +111,34 @@
 
 <div class="max-width home-wrapper">
   <div class="gallary-wrapper">
-    <h2>Gallary</h2>
-    <div class="gallary"></div>
+    <div class="home-sub">
+      <h2>Gallary</h2>
+    </div>
+    <div class="gallary">
+      <img
+        class="main-img"
+        src="../../../assets/images/about/mini.png"
+        alt=""
+      />
+      <div class="gallary-grid">
+        <div>
+          <img src="../../../assets/images/treatments/nails/nail1.jpg" alt="" />
+          <img src="../../../assets/images/treatments/nails/nail5.jpg" alt="" />
+        </div>
+        <div>
+          <img src="../../../assets/images/treatments/nails/nail5.jpg" alt="" />
+          <img src="../../../assets/images/treatments/nails/nail1.jpg" alt="" />
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="max-width home-wrapper">
   <div class="review-wrapper">
-    <h2>Customer Reviews</h2>
+    <div class="home-sub long">
+      <h2>Customer Reviews</h2>
+    </div>
     <div class="review-flex">
       <div class="review m-r">
         <p>
