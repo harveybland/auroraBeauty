@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 @Component({
   selector: 'app-about',
@@ -9,10 +9,13 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 })
 export class AboutComponent implements OnInit {
 
+  faInstagram = faInstagram;
+  faFacebook = faFacebook;
+
   constructor() { }
 
   ngOnInit() {
-
+    window.scrollTo(0, 0);
   }
 
 }

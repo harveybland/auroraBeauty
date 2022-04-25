@@ -44,6 +44,11 @@
   padding: 20px;
   align-items: flex-start;
   background-color: #fff;
+  .home-block-info {
+    div {
+      margin-bottom: 15px;
+    }
+  }
   h2 {
     margin-bottom: 15px;
   }
@@ -112,6 +117,21 @@
   }
 }
 
+@media only screen and (max-width: 1070px) {
+  .gallary-wrapper {
+    .gallary {
+      grid-template-columns: 1fr;
+    }
+    .main-img {
+      padding-bottom: 30px;
+    }
+  }
+
+  .home-wrapper {
+    justify-content: center;
+  }
+}
+
 @media only screen and (max-width: 940px) {
   .main {
     height: 30vh;
@@ -135,5 +155,14 @@
 
   .review-wrapper .review {
     margin: 0 0 25px 0;
+  }
+}
+
+@media only screen and (max-width: 635px) {
+  .gallary-grid {
+    grid-template-columns: 1fr;
+    img {
+      margin-bottom: 30px;
+    }
   }
 }
