@@ -65,6 +65,45 @@
   color: #000;
 }
 
+.sub-menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  min-height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0px 3px 25px #00000029;
+  z-index: 0;
+  padding: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0;
+  background-color: #fff;
+  visibility: hidden;
+  button {
+    margin: 0 5px;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  &.open {
+    position: fixed;
+    bottom: 0px;
+    transition: transform 0.3s linear, opacity 0.3s linear;
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+    z-index: 10;
+  }
+}
+
 @media screen and (max-width: 695px) {
   .template-header {
     grid-template-columns: 1fr 110px 110px 110px;
