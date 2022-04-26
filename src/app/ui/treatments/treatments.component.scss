@@ -69,38 +69,38 @@
   position: fixed;
   left: 0;
   right: 0;
-  min-height: 70px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: #fff;
-  box-shadow: 0px 3px 25px #00000029;
-  z-index: 0;
-  padding: 20px;
+  z-index: 10;
+  box-shadow: 0px -5px 25px #00000029;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   max-width: 800px;
   margin: 0 auto;
+  transform: translateY(100%);
   opacity: 0;
   background-color: #fff;
   visibility: hidden;
   button {
-    margin: 0 5px;
     background-color: transparent;
     border: none;
     color: #000;
     font-size: 1.2rem;
+    padding: 20px;
     cursor: pointer;
+    &:hover {
+      background: #ffcd36;
+    }
   }
   &.open {
     position: fixed;
     bottom: 0px;
-    transition: transform 0.3s linear, opacity 0.3s linear;
+    transition: transform 0.4s linear, opacity 0.4s linear;
     opacity: 1;
     transform: translateY(0);
     visibility: visible;
-    z-index: 10;
   }
 }
 
