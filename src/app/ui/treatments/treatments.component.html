@@ -4,11 +4,11 @@
 
 <div style="position: relative">
   <div class="sub-menu">
-    <button href="">Hands & Feet</button>
-    <button href="">Lashes & Brows</button>
-    <button href="">Waxing</button>
-    <button href="">Massage</button>
-    <button href="">Facials</button>
+    <button (click)="scroll('#hands', -565)">Hands & Feet</button>
+    <button (click)="scroll('#lashes', -490)">Lashes & Brows</button>
+    <button (click)="scroll('#waxing', -550)">Waxing</button>
+    <button (click)="scroll('#massage', -100)">Massage</button>
+    <button (click)="scroll('#facials', -130)">Facials</button>
   </div>
 </div>
 
@@ -36,7 +36,7 @@
 
   <div class="max-width relative template-wrapper">
     <div class="template-header">
-      <div class="col-title">Hands & Feet</div>
+      <div id="hands" class="col-title">Hands & Feet</div>
       <div class="col-access">Alice</div>
       <div class="col-access">Lauren</div>
       <div class="col-access">Melissa</div>
@@ -88,7 +88,7 @@
   </div>
 
   <div class="max-width relative template-wrapper">
-    <div class="template-header pink">
+    <div id="lashes" class="template-header pink">
       <div class="col-title">Lashes & Brows</div>
       <div class="col-access">Alice</div>
       <div class="col-access">Lauren</div>
@@ -135,7 +135,7 @@
   </div>
 
   <div class="max-width relative template-wrapper">
-    <div class="template-header">
+    <div id="waxing" class="template-header">
       <div class="col-title">Waxing</div>
       <div class="col-access">Alice</div>
       <div class="col-access">Lauren</div>
@@ -186,7 +186,7 @@
     <div class="template-spacing"></div>
   </div>
 
-  <div class="max-width relative template-wrapper">
+  <div id="massage" class="max-width relative template-wrapper">
     <div class="template-header pink">
       <div class="col-title">Swedish Massage</div>
       <div class="col-access">Alice</div>
@@ -275,7 +275,7 @@
   </div>
 
   <div class="max-width padding-top">
-    <h2 class="sub-title">Decléor Facials</h2>
+    <h2 id="facials" class="sub-title">Decléor Facials</h2>
   </div>
 
   <div class="max-width relative template-wrapper">
