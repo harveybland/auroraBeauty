@@ -32,6 +32,7 @@
 
 .favourtes {
   margin: 40px auto;
+  padding: 40px 0;
   background-color: #fff;
   h2 {
     margin-bottom: 30px;
@@ -122,5 +123,13 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .decleor-product {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -80,7 +80,7 @@
 }
 
 .p-tL {
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .m-r {
@@ -93,7 +93,7 @@
   width: 300px;
   font-size: 1.6rem;
   text-align: center;
-  margin: 0 auto 30px;
+  margin: 0 auto 40px;
   position: relative;
 }
 
@@ -128,12 +128,16 @@
   align-items: center;
   cursor: pointer;
   padding: 5px 15px;
+  border-radius: 4px;
+  border: 1px solid #000;
+
   p {
     margin-right: 15px;
   }
   &:hover {
     color: #000;
     background-color: #ffcd36;
+    border: 1px solid #ffcd36;
   }
   .icon {
     font-size: 30px;
