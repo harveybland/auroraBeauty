@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   constructor(public _router: Router) { }
 
   ngOnInit() {
-
+    window.scrollTo(0, 0);
   }
 
 
