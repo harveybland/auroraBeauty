@@ -3,7 +3,8 @@
 }
 
 .template-wrapper {
-  background-color: #fff;
+  box-shadow: 0 4px 5px rgb(0 0 0 / 13%);
+  margin-bottom: 50px;
 }
 
 .template-header {
@@ -41,15 +42,6 @@
   }
   &.massage {
     grid-template-columns: 1fr 160px 160px 160px 160px;
-  }
-}
-
-.template-spacing {
-  width: 100%;
-  background-color: #f3f3f3;
-  padding-top: 60px;
-  &.sm {
-    padding-top: 40px;
   }
 }
 

@@ -42,7 +42,7 @@
   </div>
 </div>
 
-<div class="max-width home-wrapper">
+<div class="max-width home-wrapper box-shadow">
   <div class="home-block">
     <div class="home-block-info">
       <h2>Treatments</h2>
@@ -57,7 +57,10 @@
       </div>
     </div>
     <div>
-      <a routerLink="/treatments">Find out more</a>
+      <a class="btn" style="margin-bottom: 15px" routerLink="/treatments">
+        <p>Book Now</p>
+        <fa-icon class="icon" [icon]="faArrowRight"></fa-icon>
+      </a>
     </div>
   </div>
   <div class="carousel-wrapper">

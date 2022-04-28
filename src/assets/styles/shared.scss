@@ -122,23 +122,23 @@
 }
 
 .btn {
-  background-color: #000;
-  color: #fff;
+  background-color: #ffcd36;
+  color: #000;
   display: flex;
   align-items: center;
   font-size: 1.3rem;
   cursor: pointer;
   padding: 5px 10px;
   border-radius: 6px;
-  border: 1px solid #000;
+  border: 1px solid #ffcd36;
   transition: 0.5s ease;
   p {
     margin: 0 20px 0 10px;
   }
   &:hover {
-    color: #000;
-    background-color: #ffcd36;
-    border: 1px solid #ffcd36;
+    background-color: #585657;
+    border: 1px solid #585657;
+    color: #fff;
   }
   .icon {
     font-size: 22px;
