@@ -18,4 +18,8 @@ export class HeaderV2Component implements OnInit {
     this.active = !this.active
   }
 
+  setNav() {
+    this.active = false;
+  }
+
 }

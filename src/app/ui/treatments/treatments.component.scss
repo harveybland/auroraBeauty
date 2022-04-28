@@ -20,6 +20,9 @@
   .col-access {
     text-align: center;
   }
+  &.massage {
+    grid-template-columns: 1fr 160px 160px 160px 160px;
+  }
 }
 
 .pink {
@@ -36,6 +39,9 @@
   .info {
     text-align: center;
   }
+  &.massage {
+    grid-template-columns: 1fr 160px 160px 160px 160px;
+  }
 }
 
 .template-spacing {
@@ -49,20 +55,21 @@
 
 .book-now {
   text-align: center;
-  padding: 5px 30px;
-  background-color: #585657;
-  font-size: 1.3rem;
   margin-bottom: 50px;
-  transition: 0.5s ease;
   cursor: pointer;
-  color: #fff;
   width: fit-content;
-  border-radius: 5px;
-}
-
-.book-now:hover {
-  background-color: #ffcd36;
-  color: #000;
+  a {
+    padding: 5px 30px;
+    font-size: 1.3rem;
+    background-color: #585657;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    &:hover {
+      background-color: #ffcd36;
+      color: #000;
+    }
+  }
 }
 
 .sub-menu {

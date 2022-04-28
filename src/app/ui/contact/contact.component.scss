@@ -20,6 +20,11 @@
     color: #585657;
     font-size: 1.1rem;
     color: #585657;
+    div {
+      p {
+        margin-bottom: 3px;
+      }
+    }
   }
 }
 
@@ -86,7 +91,10 @@
   // map3
   .contact {
     flex-direction: column;
-    align-items: center;
+    .contact-map {
+      display: flex;
+      justify-content: center;
+    }
     .contact-details {
       h2 {
         text-align: center;
@@ -94,6 +102,7 @@
     }
     .contact-info {
       display: flex;
+      justify-content: space-evenly;
     }
     img {
       width: 100%;
@@ -102,6 +111,14 @@
       background-repeat: no-repeat;
       background-position: 50% 50%;
       background-size: cover;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .contact {
+    .contact-info {
+      display: flex;
+      justify-content: space-between;
     }
   }
 }
