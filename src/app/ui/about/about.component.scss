@@ -25,6 +25,8 @@
   justify-content: space-between;
   margin-bottom: 60px;
   box-shadow: 0 4px 5px rgb(0 0 0 / 13%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .employee-img {
@@ -43,6 +45,8 @@
     height: 340px;
     display: block;
     transition: 0.3s ease-in-out;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
     &:hover {
       top: -2px;
       box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
@@ -61,6 +65,8 @@
   opacity: 0;
   transition: 0.5s ease;
   background-color: #000;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
   p {
     color: white;
     font-size: 20px;
