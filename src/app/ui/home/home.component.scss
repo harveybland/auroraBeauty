@@ -93,7 +93,8 @@ button {
   height: 100%;
   opacity: 0.4;
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: #585657;
+  transition: 0.5s ease;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   div {
@@ -101,7 +102,10 @@ button {
     top: 40%;
     left: 47%;
     font-size: 1.4rem;
-    color: red;
+    color: #ffcd36;
+  }
+  &:hover {
+    opacity: 0.8;
   }
 }
 
