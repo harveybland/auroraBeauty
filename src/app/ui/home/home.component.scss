@@ -8,6 +8,10 @@
   color: #585657;
 }
 
+button {
+  border: none;
+}
+
 .home-wrapper {
   display: flex;
   justify-content: space-between;
@@ -54,6 +58,16 @@
   }
   h2 {
     margin-bottom: 15px;
+  }
+}
+
+.home-block-video {
+  img {
+    display: block;
+  }
+  button {
+    display: block;
+    cursor: pointer;
   }
 }
 

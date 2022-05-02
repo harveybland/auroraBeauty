@@ -19,7 +19,9 @@
   position: sticky;
   border-radius: 4px;
   .col-access {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   &.massage {
     grid-template-columns: 1fr 160px 160px 160px 160px;
@@ -38,7 +40,9 @@
   font-size: 1.1rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   .info {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   &.massage {
     grid-template-columns: 1fr 160px 160px 160px 160px;
@@ -104,7 +108,14 @@
   }
 }
 
-@media screen and (max-width: 695px) {
+@media screen and (max-width: 865px) {
+  .template-header.massage {
+    grid-template-columns: 1fr 110px 110px 110px 110px;
+  }
+  .template-info.massage {
+    grid-template-columns: 1fr 110px 110px 110px 110px;
+  }
+
   .template-header {
     grid-template-columns: 1fr 110px 110px 110px;
   }
@@ -113,3 +124,7 @@
     grid-template-columns: 1fr 110px 110px 110px;
   }
 }
+
+// @media screen and (max-width: 695px) {
+
+// }

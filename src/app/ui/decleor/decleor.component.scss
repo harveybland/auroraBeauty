@@ -3,6 +3,7 @@
   grid-template-columns: 2fr 1fr;
   max-width: 1000px;
   margin: 40px auto;
+  padding: 0 20px;
   box-shadow: 0 4px 5px rgb(0 0 0 / 13%);
   .decleor-block-info {
     display: flex;
@@ -113,6 +114,7 @@
 @media screen and (max-width: 1000px) {
   .decleor-block {
     grid-template-columns: 1fr;
+    box-shadow: none;
   }
 
   .favourtes {
@@ -124,6 +126,21 @@
           display: none;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 705px) {
+  .decleor-block .decleor-block-img {
+    flex-direction: column;
+    .decleor-block-img img {
+      width: auto;
+    }
+    img:nth-child(1) {
+      margin-right: 0px;
+    }
+    img:nth-child(2) {
+      width: auto;
     }
   }
 }
