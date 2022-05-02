@@ -99,10 +99,13 @@ button {
   border-bottom-left-radius: 6px;
   div {
     position: absolute;
-    top: 40%;
-    left: 47%;
+    top: 37%;
+    left: 39%;
     font-size: 1.4rem;
-    color: #ffcd36;
+    color: #fff;
+    background: #2c2c2c;
+    border-radius: 50%;
+    padding: 8px 18px 8px 25px;
   }
   &:hover {
     opacity: 0.8;

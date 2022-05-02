@@ -25,127 +25,142 @@
   </ngx-glide>
 </div>
 
-<div class="flex flex_col text">
-  <h1>Welcome to Aurora Beauty</h1>
-  <div>
-    Since 1974 we have listened to our experts when designing and creating our
-    skincare. Decléor sits on a rich professional heritage focused on the power
-    of using facial and body treatments to maximise your skincare.
-  </div>
-  <div>
-    Our therapists and education team are at the heart of our mission to provide
-    you with natural but powerful skincare along with our professional expertise
-    to ensure you can truly achieve your ideal skin goals.
-  </div>
-</div>
-
-<div class="max-width home-wrapper box-shadow">
-  <div class="home-block">
-    <div class="home-block-info">
-      <h2>New! Wellness Pamper Package</h2>
-      <div>
-        Since 1974 we have listened to our experts when designing and creating
-        our skincare. Decléor sits on a rich professional heritage focused on
-        the power of using facial and body treatments to maximise your skincare.
-      </div>
-      <div>
-        This has influenced and shaped our ethos and products up until today and
-        will continue to be an irreplaceable and unique piece of Decléor.
-      </div>
-      <div>Watch here</div>
+<div class="max-width">
+  <div class="flex flex_col text">
+    <h1>Welcome to Aurora Beauty</h1>
+    <div>
+      Since 1974 we have listened to our experts when designing and creating our
+      skincare. Decléor sits on a rich professional heritage focused on the
+      power of using facial and body treatments to maximise your skincare.
     </div>
     <div>
-      <a class="btn" style="margin-bottom: 15px" routerLink="/treatments">
-        <p>Book Now</p>
-        <fa-icon class="icon" [icon]="faArrowRight"></fa-icon>
-      </a>
+      Our therapists and education team are at the heart of our mission to
+      provide you with natural but powerful skincare along with our professional
+      expertise to ensure you can truly achieve your ideal skin goals.
     </div>
   </div>
-  <div class="home-block-video">
-    <button (click)="openDialog()">
-      <img
-        src="../../../assets/images/treatments/massage/161688693_830509204205014_1509479957631720048_n.jpg"
-        alt=""
-      />
-      <div class="overlay">
+
+  <div class="home-wrapper box-shadow">
+    <div class="home-block">
+      <div class="home-block-info">
+        <h2>New! Wellness Pamper Package</h2>
         <div>
-          <fa-icon class="icon" [icon]="faPlay"></fa-icon>
+          Since 1974 we have listened to our experts when designing and creating
+          our skincare. Decléor sits on a rich professional heritage focused on
+          the power of using facial and body treatments to maximise your
+          skincare.
         </div>
+        <div>
+          This has influenced and shaped our ethos and products up until today
+          and will continue to be an irreplaceable and unique piece of Decléor.
+        </div>
+        <div>Watch here</div>
       </div>
-    </button>
+      <div>
+        <a class="btn" style="margin-bottom: 15px" routerLink="/treatments">
+          <p>Book Now</p>
+          <fa-icon class="icon" [icon]="faArrowRight"></fa-icon>
+        </a>
+      </div>
+    </div>
+    <div class="home-block-video">
+      <button (click)="openDialog()">
+        <img
+          src="../../../assets/images/treatments/massage/161688693_830509204205014_1509479957631720048_n.jpg"
+          alt=""
+        />
+        <div class="overlay">
+          <div>
+            <fa-icon class="icon" [icon]="faPlay"></fa-icon>
+          </div>
+        </div>
+      </button>
+    </div>
   </div>
 </div>
-
 <div class="imgContainer">
   <img src="../../../assets/images/banners/banner7.jpg" alt="" />
 </div>
 
-<div class="max-width home-wrapper">
-  <div class="gallary-wrapper">
-    <div class="home-sub">
-      <h2>Gallary</h2>
-    </div>
-    <div class="gallary">
-      <img
-        class="main-img"
-        src="../../../assets/images/about/mini.png"
-        alt=""
-      />
-      <div class="gallary-grid">
-        <div>
-          <img src="../../../assets/images/treatments/nails/nail1.jpg" alt="" />
-          <img src="../../../assets/images/treatments/nails/nail5.jpg" alt="" />
-        </div>
-        <div>
-          <img src="../../../assets/images/treatments/nails/nail5.jpg" alt="" />
-          <img src="../../../assets/images/treatments/nails/nail1.jpg" alt="" />
+<div class="max-width">
+  <div class="home-wrapper">
+    <div class="gallary-wrapper">
+      <div class="home-sub">
+        <h2>Gallary</h2>
+      </div>
+      <div class="gallary">
+        <img
+          class="main-img"
+          src="../../../assets/images/about/mini.png"
+          alt=""
+        />
+        <div class="gallary-grid">
+          <div>
+            <img
+              src="../../../assets/images/treatments/nails/nail1.jpg"
+              alt=""
+            />
+            <img
+              src="../../../assets/images/treatments/nails/nail5.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="../../../assets/images/treatments/nails/nail5.jpg"
+              alt=""
+            />
+            <img
+              src="../../../assets/images/treatments/nails/nail1.jpg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="max-width review-wrapper">
-  <div class="home-sub long">
-    <h2>Customer Reviews</h2>
+  <div class="review-wrapper">
+    <div class="home-sub long">
+      <h2>Customer Reviews</h2>
+    </div>
+    <ngx-glide
+      type="carousel"
+      [perView]="3"
+      [autoplay]="2000"
+      [showBullets]="false"
+      [showArrows]="false"
+    >
+      <div class="carousel-review">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+          corrupti, voluptates explicabo dolor possimus sit quod, totam quis
+          assumenda tempora culpa recusandae, quam quas laborum molestias minima
+          doloremque quo. Quasi?
+        </p>
+        <span>Saturday 16th april</span>
+      </div>
+      <div class="carousel-review">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+          corrupti, voluptates explicabo dolor possimus sit quod, totam quis
+          assumenda tempora culpa recusandae, quam quas laborum molestias minima
+          doloremque quo. Quasi?
+        </p>
+        <span>Saturday 16th april</span>
+      </div>
+      <div class="carousel-review">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+          corrupti, voluptates explicabo dolor possimus sit quod, totam quis
+          assumenda tempora culpa recusandae, quam quas laborum molestias minima
+          doloremque quo. Quasi?
+        </p>
+        <span>Saturday 16th april</span>
+      </div>
+    </ngx-glide>
   </div>
-  <ngx-glide
-    type="carousel"
-    [perView]="3"
-    [autoplay]="2000"
-    [showBullets]="false"
-    [showArrows]="false"
-  >
-    <div class="carousel-review">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil corrupti,
-        voluptates explicabo dolor possimus sit quod, totam quis assumenda
-        tempora culpa recusandae, quam quas laborum molestias minima doloremque
-        quo. Quasi?
-      </p>
-      <span>Saturday 16th april</span>
-    </div>
-    <div class="carousel-review">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil corrupti,
-        voluptates explicabo dolor possimus sit quod, totam quis assumenda
-        tempora culpa recusandae, quam quas laborum molestias minima doloremque
-        quo. Quasi?
-      </p>
-      <span>Saturday 16th april</span>
-    </div>
-    <div class="carousel-review">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil corrupti,
-        voluptates explicabo dolor possimus sit quod, totam quis assumenda
-        tempora culpa recusandae, quam quas laborum molestias minima doloremque
-        quo. Quasi?
-      </p>
-      <span>Saturday 16th april</span>
-    </div>
-  </ngx-glide>
 </div>
-
 <!-- <div class="max-width">
   <ngx-glide
     type="carousel"
