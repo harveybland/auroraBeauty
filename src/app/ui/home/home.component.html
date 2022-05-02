@@ -56,8 +56,8 @@
         </div>
         <div>Watch here</div>
       </div>
-      <div>
-        <a class="btn" style="margin-bottom: 15px" routerLink="/treatments">
+      <div class="treatment-button">
+        <a class="btn" routerLink="/treatments">
           <p>Book Now</p>
           <fa-icon class="icon" [icon]="faArrowRight"></fa-icon>
         </a>
@@ -83,46 +83,32 @@
 </div>
 
 <div class="max-width">
-  <div class="home-wrapper">
-    <div class="gallary-wrapper">
-      <div class="home-sub">
-        <h2>Gallary</h2>
-      </div>
-      <div class="gallary">
-        <img
-          class="main-img"
-          src="../../../assets/images/about/mini.png"
-          alt=""
-        />
-        <div class="gallary-grid">
-          <div>
-            <img
-              src="../../../assets/images/treatments/nails/nail1.jpg"
-              alt=""
-            />
-            <img
-              src="../../../assets/images/treatments/nails/nail5.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              src="../../../assets/images/treatments/nails/nail5.jpg"
-              alt=""
-            />
-            <img
-              src="../../../assets/images/treatments/nails/nail1.jpg"
-              alt=""
-            />
-          </div>
+  <div class="gallary-wrapper">
+    <div>
+      <h2 class="sub-title">Gallary</h2>
+    </div>
+    <div class="gallary">
+      <img
+        class="main-img"
+        src="../../../assets/images/about/mini.png"
+        alt=""
+      />
+      <div class="gallary-grid">
+        <div>
+          <img src="../../../assets/images/treatments/nails/nail1.jpg" alt="" />
+          <img src="../../../assets/images/treatments/nails/nail5.jpg" alt="" />
+        </div>
+        <div>
+          <img src="../../../assets/images/treatments/nails/nail5.jpg" alt="" />
+          <img src="../../../assets/images/treatments/nails/nail1.jpg" alt="" />
         </div>
       </div>
     </div>
   </div>
 
   <div class="review-wrapper">
-    <div class="home-sub long">
-      <h2>Customer Reviews</h2>
+    <div>
+      <h2 class="sub-title">Customer Reviews</h2>
     </div>
     <ngx-glide
       type="carousel"

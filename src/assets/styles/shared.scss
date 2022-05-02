@@ -37,7 +37,7 @@
 
 //
 .imgContainer {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   img {
     display: block;
     width: 100%;
@@ -66,13 +66,13 @@
 
 .text {
   text-align: center;
-  padding: 30px 20px;
-  margin-bottom: 40px;
+  margin: 30px 0;
   h1 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #333;
     margin-bottom: 20px;
     border-bottom: 2px solid #ffcd36;
+    padding-bottom: 7px;
   }
   div {
     color: #585657;
@@ -81,22 +81,10 @@
   }
 }
 
-.p-tb {
-  padding: 20px 0;
-}
-
-.p-tL {
-  padding-top: 40px;
-}
-
-.m-r {
-  margin-right: 20px;
-}
-
 .sub-title {
   border-bottom: 2px solid #ffcd36;
-  padding-bottom: 7px;
-  width: 300px;
+  padding: 30px 0 7px;
+  width: 260px;
   font-size: 1.6rem;
   text-align: center;
   margin: 0 auto 40px;

@@ -15,7 +15,7 @@ button {
 .home-wrapper {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   &.box-shadow {
     box-shadow: 0 4px 5px rgb(0 0 0 / 13%);
   }
@@ -29,18 +29,6 @@ button {
     width: 100%;
     display: block;
     height: 100%;
-  }
-}
-
-.home-sub {
-  border-bottom: 2px solid #ffcd36;
-  padding-bottom: 7px;
-  width: 160px;
-  font-size: 1.2rem;
-  position: relative;
-  margin-bottom: 40px;
-  &.long {
-    width: 265px;
   }
 }
 
@@ -58,6 +46,9 @@ button {
   }
   h2 {
     margin-bottom: 15px;
+  }
+  .treatment-button {
+    margin-bottom: 20px;
   }
 }
 
@@ -113,7 +104,7 @@ button {
 }
 
 .gallary-wrapper {
-  padding: 0 20px;
+  margin: 10px 0 20px;
   .gallary {
     background-color: #f3f3f3;
     display: grid;
@@ -141,9 +132,7 @@ button {
 }
 
 .review-wrapper {
-  padding: 0 20px;
-  margin: 0px auto 40px auto;
-  max-width: 1220px;
+  margin-bottom: 60px;
   .carousel-review {
     box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
     padding: 15px;

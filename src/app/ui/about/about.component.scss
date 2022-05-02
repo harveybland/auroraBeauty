@@ -23,10 +23,10 @@
 .employee-wrapper {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 60px;
   box-shadow: 0 4px 5px rgb(0 0 0 / 13%);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  margin-bottom: 60px;
 }
 
 .employee-img {
@@ -92,7 +92,6 @@
   background-color: #fff;
   h2 {
     position: relative;
-    margin-bottom: 20px;
     &::before {
       content: "";
       position: absolute;
