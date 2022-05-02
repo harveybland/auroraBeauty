@@ -97,6 +97,12 @@
       background: #ffcd36;
     }
   }
+  button:nth-child(1) {
+    border-top-left-radius: 5px;
+  }
+  button:nth-child(5) {
+    border-top-right-radius: 5px;
+  }
   &.open {
     position: fixed;
     bottom: 0px;
