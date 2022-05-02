@@ -62,8 +62,12 @@ button {
 }
 
 .home-block-video {
+  position: relative;
   img {
     display: block;
+    .overlay {
+      opacity: 0.1;
+    }
   }
   button {
     display: block;
@@ -71,9 +75,34 @@ button {
   }
 }
 
+.mat-dialog-container {
+  padding: 0px;
+}
+
 .carousel-wrapper {
   max-width: 730px;
   background-color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  opacity: 0.4;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  div {
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    font-size: 1.4rem;
+    color: red;
+  }
 }
 
 .gallary-wrapper {

@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faPlay } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-home',
@@ -15,15 +16,14 @@ export class HomeComponent implements OnInit {
     public dialog: MatDialog) { }
 
   faArrowRight = faArrowRight;
+  faPlay = faPlay;
 
   ngOnInit() {
     window.scrollTo(0, 0);
   }
 
   openDialog(): void {
-    const dialogRef = this.dialog.open(HomedialogComponent, {
-      width: '250px'
-    })
+    const dialogRef = this.dialog.open(HomedialogComponent)
   }
 
 }
