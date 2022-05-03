@@ -19,7 +19,7 @@ export class TreatmentsComponent implements OnInit {
   subMenu() {
     const options = {
       threshold: [0, 1],
-      rootMargin: '-50px',
+      rootMargin: '-300px',
     };
 
     this.observer = new IntersectionObserver(function (entries) {
@@ -30,7 +30,7 @@ export class TreatmentsComponent implements OnInit {
       }
     }, options);
 
-    const element1 = document.querySelector('.max-width');
+    const element1 = document.querySelector('.open-menu');
     this.observer.observe(element1);
   }
 
