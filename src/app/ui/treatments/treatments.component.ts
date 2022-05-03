@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'app-treatments',
   templateUrl: './treatments.component.html',
   styleUrls: ['./treatments.component.scss']
 })
-export class TreatmentsComponent implements OnInit {
+export class TreatmentsComponent implements OnInit, OnDestroy {
 
   observer: any;
 
@@ -42,5 +42,14 @@ export class TreatmentsComponent implements OnInit {
     window.scrollTo({ top: y, behavior: 'smooth' })
   }
 
+
+  ngOnDestroy(): void {
+
+    document.querySelector('.sub-menu')!.classList.remove('open');
+
+    if (!!this.observer) {
+      this.observer.disconnect();
+    }
+  }
 
 }
