@@ -36,6 +36,7 @@ nav {
   text-decoration: none;
   transition: all ease-in-out 50ms;
   padding: 10px;
+  margin: 0;
 }
 
 .nav-links {
@@ -69,7 +70,6 @@ nav {
 }
 
 /*Buttons Styling*/
-
 .contact-button {
   padding: 0.6rem 0.8rem;
   margin-left: 2vw;
@@ -87,7 +87,6 @@ nav {
 }
 
 /*Navigation Icon Styling*/
-
 .hamburger div {
   width: 30px;
   height: 3px;
@@ -101,7 +100,6 @@ nav {
 }
 
 /*Responsive Adding Media Queries*/
-
 @media only screen and (max-width: 976px) {
   nav {
     a {
@@ -184,7 +182,6 @@ nav {
   }
 
   /* Navigation Bar Icon on Click*/
-
   .toggle .bars1 {
     transform: rotate(-45deg) translate(-5px, 6px);
   }
