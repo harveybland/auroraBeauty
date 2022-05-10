@@ -8,46 +8,20 @@
     <div class="bars3"></div>
   </div>
   <ul class="nav-links" [ngClass]="active ? 'open' : ''">
-    <li [ngClass]="active ? 'fade' : ''">
-      <a
-        routerLink="/home"
-        [routerLinkActive]="['is-active']"
-        (click)="setNav()"
-        >Home</a
-      >
+    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
+      <a routerLink="/home" (click)="setNav()">Home</a>
     </li>
-    <li [ngClass]="active ? 'fade' : ''">
-      <a
-        routerLink="/about"
-        [routerLinkActive]="['is-active']"
-        (click)="setNav()"
-        >About Us</a
-      >
+    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
+      <a routerLink="/about" (click)="setNav()">About Us</a>
     </li>
-    <li [ngClass]="active ? 'fade' : ''">
-      <a
-        routerLink="/treatments"
-        [routerLinkActive]="['is-active']"
-        (click)="setNav()"
-      >
-        Treatments</a
-      >
+    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
+      <a routerLink="/treatments" (click)="setNav()"> Treatments</a>
     </li>
-    <li [ngClass]="active ? 'fade' : ''">
-      <a
-        routerLink="/decleor"
-        [routerLinkActive]="['is-active']"
-        (click)="setNav()"
-        >Products</a
-      >
+    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
+      <a routerLink="/decleor" (click)="setNav()">Products</a>
     </li>
-    <li [ngClass]="active ? 'fade' : ''">
-      <a
-        routerLink="/contact"
-        [routerLinkActive]="['is-active']"
-        (click)="setNav()"
-        >Contact</a
-      >
+    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
+      <a routerLink="/contact" (click)="setNav()">Contact</a>
     </li>
     <li [ngClass]="active ? 'fade' : ''">
       <a class="contact-button" href="https://aurorabeautyclitheroe.book.app/"

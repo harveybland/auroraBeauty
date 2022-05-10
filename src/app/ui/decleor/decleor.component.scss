@@ -101,6 +101,14 @@
   }
 }
 
+.repeat {
+  background-image: url("../../../assets/images/products/million/millionBanner.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
 @media screen and (max-width: 1000px) {
   .decleor-block {
     grid-template-columns: 1fr;
