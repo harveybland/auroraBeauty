@@ -35,22 +35,6 @@
   grid-template-columns: 1fr 1fr;
 }
 
-//
-.imgContainer {
-  margin-bottom: 20px;
-  img {
-    display: block;
-    width: 100%;
-  }
-}
-
-.containImg {
-  img {
-    display: block;
-    width: 100%;
-  }
-}
-
 #wrapper {
   height: 100%;
 }
@@ -62,6 +46,13 @@
 .img {
   position: absolute;
   top: -27%;
+}
+
+.banner {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
 }
 
 .text {

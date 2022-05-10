@@ -1,3 +1,7 @@
+.products {
+  background-image: url("../../../assets/images/banners/banner4.jpg");
+}
+
 .decleor-block {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -34,6 +38,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin: 60px 0;
+  padding: 0 10px;
   div {
     display: flex;
     align-items: center;
@@ -109,6 +114,12 @@
   height: 400px;
 }
 
+@media screen and (max-width: 1020px) {
+  .fav-img {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .decleor-block {
     grid-template-columns: 1fr;
@@ -136,6 +147,7 @@
     }
     img:nth-child(1) {
       margin-right: 0px;
+      margin-bottom: -20px;
     }
     img:nth-child(2) {
       width: auto;
@@ -148,5 +160,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 626px) {
+  .fav-img {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .fav-img {
+    grid-template-columns: 1fr;
   }
 }
