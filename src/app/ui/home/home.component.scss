@@ -16,6 +16,28 @@ button {
   background-image: url("../../../assets/images/banners/banner7.jpg");
 }
 
+.carousel-bannner {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item1 {
+  background-image: url("../../../assets/images/banners/banner7.jpg");
+}
+
+.carousel-item2 {
+  background-image: url("../../../assets/images/banners/hot-stone-massage-banner.jpg");
+}
+
+.carousel-item3 {
+  background-image: url("../../../assets/images/products/million/millionBanner.jpg");
+}
+
+.carousel-item4 {
+  background-image: url("../../../assets/images/banners/facial2.jpg");
+}
+
 .home-wrapper {
   display: flex;
   justify-content: space-between;
