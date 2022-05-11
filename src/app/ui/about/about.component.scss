@@ -94,25 +94,20 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   background-color: #fff;
-  h2 {
-    position: relative;
-    &::before {
-      content: "";
-      position: absolute;
-      width: 35px;
-      height: 3px;
-      background-color: #e0bdb9;
-      top: 57%;
-      left: 219px;
-    }
-    &::after {
-      content: "";
-      position: absolute;
-      width: 35px;
-      height: 3px;
-      background-color: #e0bdb9;
-      top: 57%;
-      right: 219px;
+  div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+      width: 225px;
+      text-align: center;
+      border-bottom: 3px solid #e0bdb9;
+      line-height: 0.1em;
+      margin: 10px 0 20px;
+      span {
+        background: #fff;
+        padding: 0 10px;
+      }
     }
   }
 }
