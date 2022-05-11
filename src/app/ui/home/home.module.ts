@@ -6,6 +6,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgxGlideModule } from 'ngx-glide';
 import { MatDialogModule } from '@angular/material/dialog';
 import { HomedialogComponent } from './homedialog/homedialog.component';
+import { MatTabsModule } from '@angular/material/tabs';
+import { TabsComponent } from './tabs/tabs.component';
 
 const routes: Routes = [
   {
@@ -20,8 +22,9 @@ const routes: Routes = [
     NgxGlideModule,
     FontAwesomeModule,
     MatDialogModule,
+    MatTabsModule,
     RouterModule.forChild(routes),
   ],
-  declarations: [HomeComponent, HomedialogComponent]
+  declarations: [HomeComponent, HomedialogComponent, TabsComponent]
 })
 export class HomeModule { }

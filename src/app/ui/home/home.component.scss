@@ -132,33 +132,6 @@ button {
   }
 }
 
-.gallary-wrapper {
-  margin: 10px 0 20px;
-  .gallary {
-    display: grid;
-    grid-column-gap: 30px;
-    grid-template-columns: 1fr 650px;
-    .main-img {
-      height: 100%;
-      width: 100%;
-    }
-  }
-}
-
-.gallary-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 20px;
-  img:nth-child(1) {
-    margin-bottom: 20px;
-  }
-  img {
-    width: 100%;
-    height: 245px;
-    display: block;
-  }
-}
-
 .review-wrapper {
   margin-bottom: 60px;
   .carousel-review {
@@ -184,15 +157,6 @@ button {
 }
 
 @media only screen and (max-width: 1070px) {
-  .gallary-wrapper {
-    .gallary {
-      grid-template-columns: 1fr;
-    }
-    .main-img {
-      padding-bottom: 30px;
-    }
-  }
-
   .home-wrapper {
     justify-content: center;
   }
@@ -225,10 +189,4 @@ button {
 }
 
 @media only screen and (max-width: 635px) {
-  .gallary-grid {
-    grid-template-columns: 1fr;
-    img {
-      margin-bottom: 30px;
-    }
-  }
 }
