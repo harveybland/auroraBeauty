@@ -109,6 +109,9 @@
         padding: 0 10px;
       }
     }
+    p {
+      padding-bottom: 10px;
+    }
   }
 }
 
@@ -122,5 +125,16 @@
   .employee-wrapper {
     align-items: center;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .employee-info {
+    h2 {
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 1.1rem;
+    }
   }
 }
