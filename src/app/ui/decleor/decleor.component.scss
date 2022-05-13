@@ -88,22 +88,6 @@
   box-shadow: 0 4px 5px rgb(0 0 0 / 13%);
   border-radius: 5px;
   margin: 60px 0;
-  //   transform: translateX(-100%);
-  //   opacity: 0;
-  //   visibility: hidden;
-
-  &.open {
-    transition: transform 0.8s linear, opacity 0.8s linear;
-    opacity: 1;
-    transform: translateX(0);
-    visibility: visible;
-  }
-  &.close {
-    transition: transform 0.8s linear, opacity 0.8s linear;
-    opacity: 0;
-    transform: translateX(-100%);
-    visibility: hidden;
-  }
 }
 
 .repeat {
