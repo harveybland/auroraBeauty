@@ -28,6 +28,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.0",
     "@glidejs/glide": "^3.5.2",
     "@types/gsap": "^3.0.0",
+    "animate.css": "^4.1.1",
     "gsap": "^3.9.1",
     "ngx-glide": "^12.1.1",
     "rxjs": "~6.6.0",

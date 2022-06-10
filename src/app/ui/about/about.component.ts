@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faTiktok } from '@fortawesome/free-brands-svg-icons'
 
 @Component({
   selector: 'app-about',
@@ -13,6 +15,7 @@ export class AboutComponent implements OnInit {
   faInstagram = faInstagram;
   faFacebook = faFacebook;
   faArrowRight = faArrowRight;
+  faTiktok = faTiktok;
 
   constructor() { }
 

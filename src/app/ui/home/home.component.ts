@@ -2,8 +2,10 @@ import { HomedialogComponent } from './homedialog/homedialog.component';
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
+
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import { faTiktok } from '@fortawesome/free-brands-svg-icons'
 
 @Component({
   selector: 'app-home',
@@ -17,6 +19,7 @@ export class HomeComponent implements OnInit {
 
   faArrowRight = faArrowRight;
   faPlay = faPlay;
+  faTiktok = faTiktok;
 
   ngOnInit() {
     window.scrollTo(0, 0);
