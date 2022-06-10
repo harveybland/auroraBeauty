@@ -1,5 +1,4 @@
 .contact {
-  display: flex;
   background-color: #fff;
   padding-bottom: 20px;
   a {
@@ -26,6 +25,14 @@
         margin-bottom: 3px;
       }
     }
+  }
+}
+
+::ng-deep google-map .map-container {
+  width: 100% !important;
+  height: 400px !important;
+  label {
+    font-size: 30px;
   }
 }
 

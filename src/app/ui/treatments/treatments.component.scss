@@ -12,7 +12,7 @@
 
 .template-header {
   display: grid;
-  grid-template-columns: 1fr 160px 160px 160px;
+  grid-template-columns: 1fr 160px 160px;
   padding: 15px 20px;
   background: #ffcd36;
   color: #000;
@@ -27,7 +27,7 @@
     justify-content: center;
   }
   &.massage {
-    grid-template-columns: 1fr 160px 160px 160px 160px;
+    grid-template-columns: 1fr 160px 160px 160px;
   }
 }
 
@@ -37,7 +37,7 @@
 
 .template-info {
   display: grid;
-  grid-template-columns: 1fr 160px 160px 160px;
+  grid-template-columns: 1fr 160px 160px;
   color: #333;
   padding: 15px 20px;
   font-size: 1.1rem;
@@ -48,7 +48,7 @@
     justify-content: center;
   }
   &.massage {
-    grid-template-columns: 1fr 160px 160px 160px 160px;
+    grid-template-columns: 1fr 160px 160px 160px;
   }
 }
 
@@ -121,64 +121,64 @@
 
 @media screen and (max-width: 885px) {
   .template-header.massage {
-    grid-template-columns: 1fr 110px 110px 110px 110px;
+    grid-template-columns: 1fr 110px 110px 110px;
     font-size: 1.2rem;
   }
   .template-info.massage {
-    grid-template-columns: 1fr 110px 110px 110px 110px;
+    grid-template-columns: 1fr 110px 110px 110px;
   }
 
   .template-header {
-    grid-template-columns: 1fr 110px 110px 110px;
+    grid-template-columns: 1fr 110px 110px;
     font-size: 1.2rem;
   }
 
   .template-info {
-    grid-template-columns: 1fr 110px 110px 110px;
+    grid-template-columns: 1fr 110px 110px;
   }
 }
 
 @media screen and (max-width: 660px) {
   .template-header.massage {
-    grid-template-columns: 1fr 60px 70px 70px 70px;
+    grid-template-columns: 1fr 70px 70px 70px;
     font-size: 1rem;
   }
   .template-info.massage {
-    grid-template-columns: 1fr 60px 70px 70px 70px;
+    grid-template-columns: 1fr 70px 70px 70px;
     font-size: 1rem;
   }
 
   .template-header {
-    grid-template-columns: 1fr 70px 80px 80px;
+    grid-template-columns: 1fr 80px 80px;
     font-size: 1rem;
   }
 
   .template-info {
-    grid-template-columns: 1fr 70px 80px 80px;
+    grid-template-columns: 1fr 80px 80px;
     font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 462px) {
   .template-header.massage {
-    grid-template-columns: 1fr 40px 60px 60px 60px;
+    grid-template-columns: 1fr 60px 60px 60px;
     padding: 15px 10px 15px 15px;
     font-size: 0.9rem;
   }
   .template-info.massage {
-    grid-template-columns: 1fr 40px 60px 60px 60px;
+    grid-template-columns: 1fr 60px 60px 60px;
     padding: 15px 10px 15px 15px;
     font-size: 0.9rem;
   }
 
   .template-header {
-    grid-template-columns: 1fr 60px 70px 70px;
+    grid-template-columns: 1fr 70px 70px;
     padding: 15px 10px 15px 15px;
     font-size: 0.9rem;
   }
 
   .template-info {
-    grid-template-columns: 1fr 60px 70px 70px;
+    grid-template-columns: 1fr 70px 70px;
     padding: 15px 10px 15px 15px;
     font-size: 0.9rem;
   }

@@ -143,8 +143,13 @@ button {
     position: relative;
     transition: all 0.1s ease-in;
     top: 0;
+    h2 {
+      font-size: 1.3rem;
+      margin-bottom: 8px;
+    }
     p {
       white-space: normal;
+      font-size: 1rem;
     }
     span {
       margin-top: 15px;

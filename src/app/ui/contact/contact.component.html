@@ -2,21 +2,10 @@
   <div class="banner salon"></div>
 </div>
 
-<!-- <div>
-  <google-map></google-map>
-</div> -->
-
 <div class="max-width contact-wrapper">
   <h2 class="sub-title">Where to find us</h2>
 
   <div class="contact">
-    <div class="contact-map">
-      <a
-        target="_blank"
-        href="https://www.google.com/maps/place/105%20Whalley%20Road%20%2C%20Clitheroe%2C%20Lancashire%2C%20BB7%201HW%2C%20United%20Kingdom"
-        ><img src="../../../assets/images/about/door.jpeg" alt="" />
-      </a>
-    </div>
     <div class="contact-details">
       <h2>Aurora Beauty</h2>
       <div class="contact-info">
@@ -42,6 +31,16 @@
             ></a>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="contact-map">
+      <div>
+        <google-map [center]="center" [options]="options" [zoom]="zoom">
+          <map-marker
+            [position]="markerPosition"
+            [options]="markerOptions"
+          ></map-marker>
+        </google-map>
       </div>
     </div>
   </div>
@@ -80,17 +79,6 @@
       <div class="info">9:00 - 18:30</div>
       <div class="info">9:00 - 17:00</div>
       <div class="info">9:15 - 17:00</div>
-      <div class="info">Closed</div>
-    </div>
-
-    <div class="template-hours-info">
-      <div>Alice</div>
-      <div class="info">Closed</div>
-      <div class="info">9:30 - 20:00</div>
-      <div class="info">11:00 - 20:00</div>
-      <div class="info">11:00 - 20:00</div>
-      <div class="info">9:30 - 16:30</div>
-      <div class="info">Closed</div>
       <div class="info">Closed</div>
     </div>
 
@@ -147,3 +135,9 @@
     </div>
   </div>
 </div>
+
+<!-- <a
+        target="_blank"
+        href="https://www.google.com/maps/place/105%20Whalley%20Road%20%2C%20Clitheroe%2C%20Lancashire%2C%20BB7%201HW%2C%20United%20Kingdom"
+        ><img src="../../../assets/images/about/door.jpeg" alt="" />
+      </a> -->
