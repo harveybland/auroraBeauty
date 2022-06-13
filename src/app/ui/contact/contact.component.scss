@@ -66,6 +66,7 @@
   border-radius: 4px;
   .col-access {
     text-align: center;
+    font-size: 1.2rem;
   }
 }
 
@@ -79,6 +80,7 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   .info {
     text-align: center;
+    font-size: 1rem;
   }
 }
 
@@ -102,11 +104,6 @@
 @media screen and (max-width: 805px) {
   .contact {
     flex-direction: column;
-    .contact-details {
-      h2 {
-        text-align: center;
-      }
-    }
     .contact-info {
       display: flex;
       justify-content: space-evenly;
