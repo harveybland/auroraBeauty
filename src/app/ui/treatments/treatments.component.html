@@ -4,11 +4,15 @@
 
 <div class="sub-menu-wrapper">
   <div class="sub-menu">
-    <button (click)="scroll('#hands', -105)">Hands & Feet</button>
-    <button (click)="scroll('#lashes', -105)">Lashes & Brows</button>
-    <button (click)="scroll('#waxing', -105)">Waxing</button>
-    <button (click)="scroll('#massage', -105)">Massage</button>
-    <button (click)="scroll('#facials', -110)">Facials</button>
+    <button class="active" id="#hands" (click)="scroll('#hands', -105)">
+      Hands & Feet
+    </button>
+    <button (click)="scroll('#lashes', -105)" id="#lashes">
+      Lashes & Brows
+    </button>
+    <button (click)="scroll('#waxing', -105)" id="#waxing">Waxing</button>
+    <button (click)="scroll('#massage', -105)" id="#massage">Massage</button>
+    <button (click)="scroll('#facials', -110)" id="#facials">Facials</button>
   </div>
 </div>
 
@@ -27,7 +31,7 @@
     </div>
   </div>
 
-  <div id="hands" class="relative template-wrapper">
+  <section id="hands" class="relative template-wrapper">
     <div class="template-header">
       <div class="col-title">Hands & Feet</div>
       <div class="col-access">Lauren</div>
@@ -69,9 +73,9 @@
       <div class="info">£32</div>
       <div class="info">£232</div>
     </div>
-  </div>
+  </section>
 
-  <div id="lashes" class="relative template-wrapper">
+  <section id="lashes" class="relative template-wrapper">
     <div class="template-header pink">
       <div class="col-title">Lashes & Brows</div>
       <div class="col-access">Lauren</div>
@@ -108,9 +112,9 @@
       <div class="info">£33</div>
       <div class="info">£33</div>
     </div>
-  </div>
+  </section>
 
-  <div id="waxing" class="relative template-wrapper">
+  <section id="waxing" class="relative template-wrapper">
     <div class="template-header">
       <div class="col-title">Waxing</div>
       <div class="col-access">Lauren</div>
@@ -151,7 +155,7 @@
       <div class="info">£22</div>
       <div class="info">£22</div>
     </div>
-  </div>
+  </section>
 
   <div class="book-now">
     <a href="https://aurorabeautyclitheroe.book.app/book-now"
@@ -159,9 +163,9 @@
     >
   </div>
 
-  <div class="padding-top">
-    <h2 id="massage" class="sub-title">Massage</h2>
-  </div>
+  <section class="padding-top" id="massage">
+    <h2 class="sub-title">Massage</h2>
+  </section>
 
   <div class="relative template-wrapper">
     <div class="template-header pink massage">
@@ -239,9 +243,9 @@
     >
   </div>
 
-  <div class="padding-top">
-    <h2 id="facials" class="sub-title">Facials</h2>
-  </div>
+  <section class="padding-top" id="facials">
+    <h2 class="sub-title">Facials</h2>
+  </section>
 
   <div class="relative template-wrapper">
     <div class="template-header">

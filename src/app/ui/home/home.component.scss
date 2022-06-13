@@ -41,7 +41,7 @@ button {
 .home-wrapper {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 60px;
+  margin: 50px 0 70px;
   border-bottom-left-radius: 6px;
   &.box-shadow {
     box-shadow: 0 4px 5px rgb(0 0 0 / 13%);
@@ -71,6 +71,8 @@ button {
     border-bottom-left-radius: 6px;
     div {
       margin-bottom: 15px;
+      display: flex;
+      align-items: center;
     }
   }
   h2 {
@@ -86,6 +88,7 @@ button {
   img {
     display: block;
     border-bottom-right-radius: 6px;
+    width: 500px;
     .overlay {
       opacity: 0.1;
     }

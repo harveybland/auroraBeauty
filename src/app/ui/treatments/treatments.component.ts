@@ -14,6 +14,7 @@ export class TreatmentsComponent implements OnInit, OnDestroy {
   ngOnInit() {
     window.scrollTo(0, 0);
     this.subMenu();
+    this.changeNavigation();
   }
 
   subMenu() {
@@ -40,6 +41,32 @@ export class TreatmentsComponent implements OnInit, OnDestroy {
     const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
     window.scrollTo({ top: y, behavior: 'smooth' })
+  }
+
+  changeNavigation() {
+    const changeNav = (entries: any, observer: any) => {
+      entries.forEach((entry: any) => {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.45) {
+          document.querySelector('.active')!.classList.remove('active');
+
+          var id = entry.target.getAttribute('id');
+
+          let test = document.getElementById(`#${id}`)!.classList.add('active');
+        }
+      });
+    };
+
+    const options = {
+      threshold: 0.55,
+    };
+
+    const observer = new IntersectionObserver(changeNav, options);
+
+    const sections = document.querySelectorAll('section');
+    sections.forEach((section) => {
+      observer.observe(section);
+    });
+
   }
 
 

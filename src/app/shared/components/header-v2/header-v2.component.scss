@@ -55,6 +55,7 @@ nav {
   align-items: center;
   transition: all ease-in-out 200ms;
   border: 5px solid transparent;
+  cursor: pointer;
   &:hover {
     border-bottom: solid #ffcd36 5px;
     color: #ffcd36;

@@ -8,20 +8,40 @@
     <div class="bars3"></div>
   </div>
   <ul class="nav-links" [ngClass]="active ? 'open' : ''">
-    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
-      <a routerLink="/home" (click)="setNav()">Home</a>
+    <li
+      [ngClass]="active ? 'fade' : ''"
+      [routerLinkActive]="['is-active']"
+      routerLink="/home"
+    >
+      <a (click)="setNav()">Home</a>
     </li>
-    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
-      <a routerLink="/about" (click)="setNav()">About Us</a>
+    <li
+      [ngClass]="active ? 'fade' : ''"
+      [routerLinkActive]="['is-active']"
+      routerLink="/about"
+    >
+      <a (click)="setNav()">About Us</a>
     </li>
-    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
-      <a routerLink="/treatments" (click)="setNav()">Treatments</a>
+    <li
+      [ngClass]="active ? 'fade' : ''"
+      [routerLinkActive]="['is-active']"
+      routerLink="/treatments"
+    >
+      <a (click)="setNav()">Treatments</a>
     </li>
-    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
-      <a routerLink="/decleor" (click)="setNav()">Products</a>
+    <li
+      [ngClass]="active ? 'fade' : ''"
+      [routerLinkActive]="['is-active']"
+      routerLink="/decleor"
+    >
+      <a (click)="setNav()">Products</a>
     </li>
-    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
-      <a routerLink="/contact" (click)="setNav()">Contact</a>
+    <li
+      [ngClass]="active ? 'fade' : ''"
+      [routerLinkActive]="['is-active']"
+      routerLink="/contact"
+    >
+      <a (click)="setNav()">Contact</a>
     </li>
     <li [ngClass]="active ? 'fade' : ''">
       <a
