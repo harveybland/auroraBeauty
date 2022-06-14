@@ -6,29 +6,26 @@ footer {
   padding: 25px 0 35px 0;
 }
 
-.footerLogo {
-  color: #d4af37;
-  max-width: 1440px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 22px;
-  font-weight: bold;
-  padding: 10px 20px;
+.footer-logo {
+  p {
+    padding: 10px 0;
+  }
 }
 
 .footerPages {
-  padding: 10px 20px;
+  padding: 40px 20px 10px;
   color: #fff;
   ul {
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+    font-size: 16px;
   }
   li {
     cursor: pointer;
-    font-family: "Open Sans", sans-serif;
+    padding-left: 20px;
+    &:hover {
+      color: #ffcd36;
+    }
   }
   span:nth-child(1) {
     margin: 0 15px;
@@ -39,23 +36,31 @@ footer {
 }
 
 .footer-details {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 30px 20px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
   h2 {
     color: #585657;
   }
   p {
-    padding: 0px 0 10px;
+    padding-top: 10px;
+  }
+  a {
+    padding-top: 10px;
+  }
+  .footer-flex {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: column;
   }
 
   .footer-links {
     display: flex;
     align-items: center;
-    padding-top: 50px;
     a {
       margin-right: 20px;
     }
@@ -63,6 +68,11 @@ footer {
       color: #fff;
     }
   }
+}
+
+.contact-info {
+  text-align: end;
+  padding-top: 21px;
 }
 
 @media only screen and (max-width: 764px) {
@@ -86,10 +96,28 @@ footer {
 }
 
 @media only screen and (max-width: 425px) {
+  .footerPages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px 10px;
+    ul {
+      align-items: baseline;
+    }
+    li {
+      padding: 0;
+    }
+  }
+
   .footer-details {
     flex-direction: column;
+    p {
+      padding-top: 0;
+      padding-bottom: 10px;
+    }
     .contact-info {
       text-align: end;
+      padding: 0;
     }
   }
 }

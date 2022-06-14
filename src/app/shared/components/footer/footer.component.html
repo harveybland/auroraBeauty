@@ -1,46 +1,12 @@
 <footer>
-  <div class="footerLogo">
-    <img src="assets/images/shared/Logo.png" alt="logo" />
-  </div>
-
-  <div class="footerPages">
-    <ul>
-      <li>
-        <div routerLink="/home" [routerLinkActive]="'is-active'">
-          <span>Home </span><span>|</span>
-        </div>
-      </li>
-      <li>
-        <div routerLink="/about" [routerLinkActive]="'is-active'">
-          <span>About Us </span><span>|</span>
-        </div>
-      </li>
-      <li>
-        <div routerLink="/treatments" [routerLinkActive]="'is-active'">
-          <span>Treatments </span> <span>|</span>
-        </div>
-      </li>
-      <li>
-        <div routerLink="/decleor" [routerLinkActive]="'is-active'">
-          <span>DECLÉOR </span> <span>|</span>
-        </div>
-      </li>
-      <li>
-        <div routerLink="/contact" [routerLinkActive]="'is-active'">
-          <span>Contact </span><span>|</span>
-        </div>
-      </li>
-      <li>
-        <div [routerLinkActive]="'is-active'">
-          <span>Book Now </span>
-        </div>
-      </li>
-    </ul>
-  </div>
+  <!-- <div class="footer-logo">
+    <img src="assets/images/shared/Logo2.png" alt="logo" />
+  </div> -->
 
   <div class="footer-details">
-    <div>
-      <div>
+    <div class="footer-flex">
+      <div class="footer-logo">
+        <img src="assets/images/shared/Logo2.png" alt="logo" />
         <p>Call: 07507393637</p>
         <a href="mailto:Melissabland43@gmail.com"
           >Email: Melissabland43@gmail.com</a
@@ -63,13 +29,36 @@
         </a>
       </div>
     </div>
-    <div class="contact-info">
-      <div>
-        <p>105 Whalley Road</p>
-        <p>Clitheroe</p>
-        <p>Lancashire</p>
-        <p>BB7 1HW</p>
-        <p>United Kingdom</p>
+
+    <div class="footerPages">
+      <ul>
+        <li>
+          <div routerLink="/home">Home</div>
+        </li>
+        <li>
+          <div routerLink="/about">About Us</div>
+        </li>
+        <li>
+          <div routerLink="/treatments">Treatments</div>
+        </li>
+        <li>
+          <div routerLink="/decleor">DECLÉOR</div>
+        </li>
+        <li>
+          <div routerLink="/contact">Contact</div>
+        </li>
+        <li>
+          <div>Book Now</div>
+        </li>
+      </ul>
+      <div class="contact-info">
+        <div>
+          <p>105 Whalley Road</p>
+          <p>Clitheroe</p>
+          <p>Lancashire</p>
+          <p>BB7 1HW</p>
+          <p>United Kingdom</p>
+        </div>
       </div>
     </div>
   </div>
