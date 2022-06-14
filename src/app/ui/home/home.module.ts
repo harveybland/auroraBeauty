@@ -1,3 +1,4 @@
+import { ImageScrollComponent } from './image-scroll/image-scroll.component';
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -25,6 +26,11 @@ const routes: Routes = [
     MatTabsModule,
     RouterModule.forChild(routes),
   ],
-  declarations: [HomeComponent, HomedialogComponent, TabsComponent]
+  declarations: [
+    HomeComponent,
+    HomedialogComponent,
+    TabsComponent,
+    ImageScrollComponent
+  ]
 })
 export class HomeModule { }

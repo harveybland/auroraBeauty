@@ -46,7 +46,7 @@ export class TreatmentsComponent implements OnInit, OnDestroy {
   changeNavigation() {
     const changeNav = (entries: any, observer: any) => {
       entries.forEach((entry: any) => {
-        if (entry.isIntersecting && entry.intersectionRatio >= 0.45) {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0) {
           document.querySelector('.active')!.classList.remove('active');
 
           var id = entry.target.getAttribute('id');
