@@ -83,6 +83,16 @@ button {
   }
 }
 
+.fadeIn {
+  opacity: 0;
+  transform: translate(0, 45px);
+  transition: all 0.8s;
+  &.on {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
 .home-block-video {
   position: relative;
   img {

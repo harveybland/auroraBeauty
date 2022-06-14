@@ -124,6 +124,16 @@
   }
 }
 
+.fadeIn {
+  opacity: 0;
+  transform: translate(0, 45px);
+  transition: all 0.8s;
+  &.on {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
 @media screen and (max-width: 1020px) {
   .fav-img {
     grid-template-columns: 1fr 1fr 1fr;
