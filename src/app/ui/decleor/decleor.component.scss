@@ -106,6 +106,24 @@
   height: 400px;
 }
 
+.fade-right {
+  transform: translate(-45px, 0);
+  transition: all 1.5s;
+  position: relative;
+  z-index: 1;
+  &.on {
+    transform: translate(0, 0);
+  }
+}
+
+.fade-left {
+  transform: translate(45px, 0);
+  transition: all 1.5s;
+  &.on {
+    transform: translate(0, 0);
+  }
+}
+
 @media screen and (max-width: 1020px) {
   .fav-img {
     grid-template-columns: 1fr 1fr 1fr;

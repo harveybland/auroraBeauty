@@ -84,3 +84,12 @@ footer {
     }
   }
 }
+
+@media only screen and (max-width: 425px) {
+  .footer-details {
+    flex-direction: column;
+    .contact-info {
+      text-align: end;
+    }
+  }
+}

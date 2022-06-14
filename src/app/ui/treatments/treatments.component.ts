@@ -20,7 +20,7 @@ export class TreatmentsComponent implements OnInit, OnDestroy {
   subMenu() {
     const options = {
       threshold: [0, 1],
-      rootMargin: '-350px',
+      rootMargin: '0px',
     };
 
     this.observer = new IntersectionObserver(function (entries) {
