@@ -1,3 +1,20 @@
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 600px;
+  .contact-container {
+    margin: 0 20px;
+  }
+}
+
+.contact-us {
+  background-image: url("../../../assets/images/banners/banner2.jpg");
+  color: #000;
+  display: flex;
+  height: 35vh;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact {
   background-color: #fff;
   padding-bottom: 20px;
@@ -37,12 +54,8 @@
 ::ng-deep google-map {
   .map-container {
     width: 100% !important;
-    height: 400px !important;
+    height: 700px !important;
   }
-}
-
-.salon {
-  background-image: url("../../../assets/images/about/front3.png");
 }
 
 .hours-wrapper {
@@ -56,27 +69,29 @@
 
 .template-hour {
   display: grid;
-  grid-template-columns: 1fr 115px 140px 140px 140px 135px 120px 115px;
+  grid-template-columns: 100px repeat(7, 1fr);
   padding: 15px 20px;
   background: #ffcd36;
   color: #000;
-  font-size: 1.3rem;
   top: 105px;
   z-index: 3;
   position: sticky;
   border-radius: 4px;
+  .info {
+    text-align: center;
+    font-size: 1rem;
+  }
   .col-access {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
 .template-hours-info {
   display: grid;
-  grid-template-columns: 1fr 115px 140px 140px 140px 135px 120px 115px;
+  grid-template-columns: 100px repeat(7, 1fr);
   color: #333;
   padding: 15px 20px;
-  font-size: 1.1rem;
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   .info {
