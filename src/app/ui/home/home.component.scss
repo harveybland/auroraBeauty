@@ -12,8 +12,26 @@ button {
   border: none;
 }
 
-.home {
-  background-image: url("../../../assets/images/banners/banner7.jpg");
+.home-banner {
+  background-color: #ede9e6;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 60px;
+  color: #8b6850;
+  h2 {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 1.7rem;
+  }
+  p {
+    margin-top: 15px;
+    font-size: 1.1rem;
+  }
+  .home {
+    background-image: url("../../../assets/images/banners/room-space.png");
+    background-size: contain;
+    height: 230px;
+  }
 }
 
 .carousel-bannner {
@@ -98,7 +116,7 @@ button {
   img {
     display: block;
     border-bottom-right-radius: 6px;
-    width: 500px;
+    width: 350px;
     .overlay {
       opacity: 0.1;
     }
