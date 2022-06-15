@@ -1,4 +1,3 @@
-import { ImageScrollComponent } from './image-scroll/image-scroll.component';
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -29,8 +28,7 @@ const routes: Routes = [
   declarations: [
     HomeComponent,
     HomedialogComponent,
-    TabsComponent,
-    ImageScrollComponent
+    TabsComponent
   ]
 })
 export class HomeModule { }

@@ -107,7 +107,7 @@
 }
 
 .fade-right {
-  transform: translate(-45px, 0);
+  transform: translate(-35px, 0);
   transition: all 1.5s;
   position: relative;
   z-index: 1;
@@ -117,7 +117,7 @@
 }
 
 .fade-left {
-  transform: translate(45px, 0);
+  transform: translate(35px, 0);
   transition: all 1.5s;
   &.on {
     transform: translate(0, 0);
@@ -126,7 +126,7 @@
 
 .fadeIn {
   opacity: 0;
-  transform: translate(0, 45px);
+  transform: translate(0, 40px);
   transition: all 0.8s;
   &.on {
     opacity: 1;
