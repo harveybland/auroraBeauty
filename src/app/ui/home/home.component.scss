@@ -18,6 +18,19 @@ button {
   padding: 20px 0;
   margin-bottom: 60px;
   color: #8b6850;
+  display: flex;
+  justify-content: space-evenly;
+
+  .home-banner-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p {
+      margin-top: 5px;
+    }
+  }
+
   h2 {
     margin-bottom: 15px;
     font-weight: 400;
