@@ -13,6 +13,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 7px;
 }
 
 ::ng-deep {
@@ -33,14 +34,10 @@
 }
 
 .nail2 {
-  height: inherit;
-  width: 100%;
   background-image: url("../../../../assets/images/treatments/nails/nails2.jpeg");
 }
 
 .nail3 {
-  height: inherit;
-  width: 100%;
   background-image: url("../../../../assets/images/treatments/nails/nails3.jpeg");
 }
 
@@ -51,11 +48,11 @@
 }
 
 .facial2 {
-  background-image: url("../../../../assets/images/treatments/facial/facial1.jpeg");
+  background-image: url("../../../../assets/images/treatments/facial/facial5.png");
 }
 
 .facial3 {
-  background-image: url("../../../../assets/images/treatments/facial/facial1.jpeg");
+  background-image: url("../../../../assets/images/treatments/facial/led.jpg");
 }
 
 //
@@ -65,9 +62,9 @@
 }
 
 .lashes2 {
-  background-image: url("../../../../assets/images/treatments/lashes/lashes1.jpeg");
+  background-image: url("../../../../assets/images/treatments/lashes/brows.png");
 }
 
 .lashes3 {
-  background-image: url("../../../../assets/images/treatments/lashes/lash2.jpg");
+  background-image: url("../../../../assets/images/treatments/lashes/lashes1.jpeg");
 }

@@ -38,7 +38,7 @@ button {
   }
   p {
     margin-top: 15px;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .home {
     background-image: url("../../../assets/images/banners/room-space.png");
@@ -203,6 +203,11 @@ button {
       top: -4px;
     }
   }
+}
+
+.tab-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1070px) {
