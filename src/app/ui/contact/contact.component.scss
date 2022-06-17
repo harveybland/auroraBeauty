@@ -113,6 +113,13 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  ::ng-deep google-map {
+    .map-container {
+      width: 100% !important;
+      height: 400px !important;
+    }
+  }
 }
 
 @media screen and (max-width: 805px) {

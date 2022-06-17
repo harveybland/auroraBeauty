@@ -12,39 +12,19 @@
     <div class="bars3"></div>
   </div>
   <ul class="nav-links" [ngClass]="active ? 'open' : ''">
-    <li
-      [ngClass]="active ? 'fade' : ''"
-      [routerLinkActive]="['is-active']"
-      routerLink="/home"
-    >
+    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
       <a routerLink="/home" (click)="setNav()">Home</a>
     </li>
-    <li
-      [ngClass]="active ? 'fade' : ''"
-      [routerLinkActive]="['is-active']"
-      routerLink="/about"
-    >
+    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
       <a routerLink="/about" (click)="setNav()">About Us</a>
     </li>
-    <li
-      [ngClass]="active ? 'fade' : ''"
-      [routerLinkActive]="['is-active']"
-      routerLink="/treatments"
-    >
+    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
       <a routerLink="/treatments" (click)="setNav()">Treatments</a>
     </li>
-    <li
-      [ngClass]="active ? 'fade' : ''"
-      [routerLinkActive]="['is-active']"
-      routerLink="/decleor"
-    >
+    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
       <a routerLink="/decleor" (click)="setNav()">Products</a>
     </li>
-    <li
-      [ngClass]="active ? 'fade' : ''"
-      [routerLinkActive]="['is-active']"
-      routerLink="/contact"
-    >
+    <li [ngClass]="active ? 'fade' : ''" [routerLinkActive]="['is-active']">
       <a routerLink="/contact" (click)="setNav()">Contact</a>
     </li>
     <li [ngClass]="active ? 'fade' : ''">
