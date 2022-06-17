@@ -55,10 +55,18 @@ button {
 
 .carousel-item1 {
   background-image: url("../../../assets/images/banners/banner7.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 3.1rem;
+    color: #333;
+    border-bottom: 2px solid #ffcd36;
+  }
 }
 
 .carousel-item2 {
-  background-image: url("../../../assets/images/banners/hot-stone-massage-banner.jpg");
+  background-image: url("../../../assets/images/banners/test5.webp");
 }
 
 .carousel-item3 {
@@ -206,7 +214,7 @@ button {
 }
 
 .tab-wrapper {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
 }
 

@@ -109,11 +109,9 @@
 }
 
 @media screen and (max-width: 1260px) {
-  .hours-wrapper {
-    display: none;
-  }
-  .hours-wrapper-sm {
-    display: block;
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -126,6 +124,16 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .hours-wrapper {
+    display: none;
+  }
+  .hours-wrapper-sm {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .contact {
     .contact-info {
