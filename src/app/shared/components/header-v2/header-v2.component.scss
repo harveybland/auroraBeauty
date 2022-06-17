@@ -6,7 +6,7 @@ nav {
   border-bottom: 1.5px solid #000;
   display: flex;
   width: 100%;
-  color: #fff;
+  color: #eee;
   height: 6.6rem;
   justify-content: space-around;
   align-items: center;
@@ -43,7 +43,7 @@ nav {
   li:last-child {
     &:hover {
       border-bottom: solid transparent 5px;
-      color: #fff;
+      color: #eee;
     }
   }
 }
@@ -134,7 +134,7 @@ nav {
 
   .nav-links {
     background: #585657;
-    color: #fff;
+    color: #eee;
     position: fixed;
     opacity: 1;
     z-index: 1;

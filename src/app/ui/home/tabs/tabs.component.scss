@@ -17,13 +17,53 @@
 }
 
 ::ng-deep {
+  // tab animation
+  // .mat-tab-body {
+  //   animation: fade-out 0.5s;
+  //   opacity: 0;
+  // }
+  // .mat-tab-body.mat-tab-body-active {
+  //   animation: fade-in 0.5s;
+  //   opacity: 1;
+  // }
+
+  // @keyframes fade-in {
+  //   0% {
+  //     opacity: 0;
+  //   }
+  //   50% {
+  //     opacity: 0;
+  //   }
+  //   100% {
+  //     opacity: 1;
+  //   }
+  // }
+
+  // @keyframes fade-out {
+  //   0% {
+  //     opacity: 1;
+  //   }
+  //   50% {
+  //     opacity: 0;
+  //   }
+  //   100% {
+  //     opacity: 0;
+  //   }
+  // }
+
   .mat-tab-group.mat-primary .mat-ink-bar,
   .mat-tab-nav-bar.mat-primary .mat-ink-bar {
     background-color: #ffcd36;
   }
 
+  // tab button size
   .mat-tab-label {
     font-size: 1rem;
+  }
+
+  // tab button color
+  .mat-tab-label .mat-tab-label-content {
+    color: #000;
   }
 }
 
