@@ -37,6 +37,9 @@ nav {
   transition: all ease-in-out 50ms;
   padding: 10px;
   margin: 0;
+  height: 97px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-links {
@@ -79,6 +82,7 @@ nav {
   background-color: transparent;
   border: 1.5px solid #f2f5f7;
   border-radius: 2em;
+  height: auto !important;
 }
 
 .contact-button:hover {
