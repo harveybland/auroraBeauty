@@ -100,7 +100,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0px 10px;
+    padding: 5px 0px 10px;
     ul {
       align-items: baseline;
     }
@@ -110,14 +110,27 @@ footer {
   }
 
   .footer-details {
-    flex-direction: column;
-    p {
-      padding-top: 0;
-      padding-bottom: 10px;
+    a {
+      padding: 10px 0;
     }
+    .footer-flex {
+      align-items: center;
+    }
+  }
+
+  .footer-details {
+    flex-direction: column;
+    text-align: center;
     .contact-info {
       text-align: end;
+      display: flex;
+      flex-direction: column;
       padding: 0;
+      align-items: end;
+      p {
+        padding: 0;
+        margin-bottom: 10px;
+      }
     }
   }
 }

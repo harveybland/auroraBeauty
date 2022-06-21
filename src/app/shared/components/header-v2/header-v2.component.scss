@@ -132,8 +132,13 @@ nav {
     transition: all 0.7s ease;
   }
 
-  .nav-links li {
-    height: auto;
+  .nav-links {
+    li {
+      height: auto;
+      a {
+        height: auto;
+      }
+    }
   }
 
   .nav-links {

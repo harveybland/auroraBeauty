@@ -126,8 +126,8 @@
 
 .fadeIn {
   opacity: 0;
-  transform: translate(0, 40px);
-  transition: all 0.8s;
+  transform: translate(0, 35px);
+  transition: all 0.7s;
   &.on {
     opacity: 1;
     transform: translate(0, 0);
