@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 
 @Component({
   selector: 'app-contact',
@@ -41,7 +42,16 @@ export class ContactComponent implements OnInit {
       lat: 53.86527143576552,
       lng: -2.3945739053711863
     }
+  }
 
+  public sendEmail(e: Event) {
+    e.preventDefault();
+    emailjs.sendForm('service_46x836u', 'template_yqrgur2', e.target as HTMLFormElement, 'stusP_Nq081JUaNOy')
+      .then((result: EmailJSResponseStatus) => {
+        console.log(result.text);
+      }, (error: any) => {
+        console.log(error.text);
+      });
   }
 
 
