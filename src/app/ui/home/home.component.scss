@@ -15,7 +15,7 @@ button {
 .home-banner {
   background-color: #ede9e6;
   text-align: center;
-  padding: 20px;
+  padding: 28px;
   margin-bottom: 60px;
   color: #79553d;
   display: flex;
@@ -187,14 +187,16 @@ button {
 .review-wrapper {
   margin: 30px 0 70px;
   .carousel-review {
-    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
-    padding: 15px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 0.15);
+    padding: 18px;
     margin: 0px 15px 20px 5px !important;
     display: flex;
     flex-direction: column;
     position: relative;
     transition: all 0.1s ease-in;
     top: 0;
+    background: #f7f7f7;
+    border: 8px;
     h2 {
       font-size: 1.2rem;
       margin-bottom: 8px;
@@ -207,7 +209,7 @@ button {
       margin-top: 15px;
     }
     &:hover {
-      box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 5px rgba(0, 0, 0, 0.26);
       top: -4px;
     }
   }
