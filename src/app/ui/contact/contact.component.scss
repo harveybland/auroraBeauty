@@ -97,8 +97,8 @@
 
 .template-hour {
   display: grid;
-  grid-template-columns: 65px repeat(7, 1fr);
-  padding: 15px 20px;
+  grid-template-columns: 1fr repeat(7, 130px);
+  padding: 15px 10px;
   background: #ffcd36;
   color: #000;
   top: 105px;
@@ -117,9 +117,9 @@
 
 .template-hours-info {
   display: grid;
-  grid-template-columns: 65px repeat(7, 1fr);
+  grid-template-columns: 1fr repeat(7, 130px);
   color: #333;
-  padding: 15px 20px;
+  padding: 15px 10px;
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   .info {
@@ -143,30 +143,33 @@
   }
 }
 
-@media screen and (max-width: 805px) {
-  .contact {
-    flex-direction: column;
-    .contact-info {
-      display: flex;
-      justify-content: space-evenly;
-    }
+@media screen and (max-width: 1005px) {
+  .template-hour {
+    grid-template-columns: 1fr repeat(7, 110px);
+  }
+
+  .template-hours-info {
+    grid-template-columns: 1fr repeat(7, 110px);
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 885px) {
   .hours-wrapper {
     display: none;
   }
   .hours-wrapper-sm {
     display: block;
   }
+  .template-hours-info {
+    padding: 15px 20px;
+    grid-template-columns: 1fr 110px;
+  }
 }
 
-@media screen and (max-width: 425px) {
-  .contact {
-    .contact-info {
-      display: flex;
-      justify-content: space-between;
-    }
+@media screen and (max-width: 480px) {
+  .contact-details {
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: space-between;
   }
 }

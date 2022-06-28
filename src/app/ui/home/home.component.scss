@@ -119,6 +119,13 @@ button {
   }
   .treatment-button {
     margin-bottom: 20px;
+    p {
+      display: flex;
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
   }
 }
 
