@@ -2,7 +2,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContactComponent } from './contact.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { GoogleMapsModule } from '@angular/google-maps'
 
 const routes: Routes = [
@@ -15,7 +14,6 @@ const routes: Routes = [
 @NgModule({
   imports: [
     CommonModule,
-    FontAwesomeModule,
     GoogleMapsModule,
     RouterModule.forChild(routes),
   ],

@@ -1,4 +1,3 @@
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderV2Component } from './../../components/header-v2/header-v2.component';
 import { FooterComponent } from './../../components/footer/footer.component';
 import { RouterModule } from '@angular/router';
@@ -8,8 +7,7 @@ import { CommonModule } from '@angular/common';
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule,
-    FontAwesomeModule
+    RouterModule
   ],
   declarations: [
     FooterComponent,
