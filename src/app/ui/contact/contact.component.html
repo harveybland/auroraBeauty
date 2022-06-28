@@ -6,7 +6,8 @@
   <div>
     <div class="contact-details">
       <div class="contact-form">
-        <form (submit)="sendEmail($event)">
+        <form (submit)="sendEmail($event)" *ngIf="!emailSent">
+          <h2>Get in touch</h2>
           <p>
             Feel free to contact us at any time. We will get back to you as soon
             as we can.
@@ -17,6 +18,7 @@
           <textarea name="message" placeholder="Message" rows="5"></textarea>
           <button type="submit">Submit</button>
         </form>
+        <div *ngIf="emailSent">Thank you, we will be in touch.</div>
       </div>
 
       <div class="contact">

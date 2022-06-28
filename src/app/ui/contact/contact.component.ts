@@ -17,6 +17,7 @@ export class ContactComponent implements OnInit {
     streetViewControl: false,
   }
 
+  emailSent: boolean = false;
 
   markerOptions!: google.maps.MarkerOptions;
   markerPosition!: google.maps.LatLngLiteral;
@@ -49,6 +50,7 @@ export class ContactComponent implements OnInit {
     emailjs.sendForm('service_46x836u', 'template_yqrgur2', e.target as HTMLFormElement, 'stusP_Nq081JUaNOy')
       .then((result: EmailJSResponseStatus) => {
         console.log(result.text);
+        this.emailSent = true
       }, (error: any) => {
         console.log(error.text);
       });
