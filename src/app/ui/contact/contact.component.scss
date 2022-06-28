@@ -19,27 +19,30 @@
 }
 
 .contact {
-  background-color: #000;
+  background-color: #585657;
   padding: 15px;
-  color: #fff;
+  color: #eee;
   .contact-info {
     margin-top: 20px;
     color: #eee;
-    font-size: 1.1rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     div {
       display: flex;
+      align-items: center;
+      margin: 8px 0px;
       svg {
-        fill: #fff;
+        fill: #eee;
         width: 30px;
         height: 30px;
+        margin-right: 5px;
       }
     }
   }
   .contact-links {
     svg {
-      fill: #fff;
+      fill: #eee;
       width: 30px;
       height: 30px;
     }
@@ -51,10 +54,10 @@
 
 .contact-form {
   form {
-    margin-top: 20px;
+    margin: 20px 40px 0 0;
     display: flex;
     flex-direction: column;
-    width: 320px;
+
     input {
       width: 100%;
       height: 50px;
@@ -80,13 +83,6 @@
       cursor: pointer;
       width: fit-content;
     }
-  }
-}
-
-::ng-deep google-map {
-  .map-container {
-    width: 100% !important;
-    height: 400px !important;
   }
 }
 
@@ -138,6 +134,13 @@
 
 .template-hours-info-sm {
   grid-template-columns: 1fr 140px;
+}
+
+::ng-deep google-map {
+  .map-container {
+    width: 100% !important;
+    height: 400px !important;
+  }
 }
 
 @media screen and (max-width: 805px) {

@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./assets/styles/shared.scss";
+
+// Do not remove for the carousel
 @import "~@glidejs/glide/src/assets/sass/glide.core";
 @import "~@glidejs/glide/src/assets/sass/glide.theme";
 
@@ -50,8 +52,4 @@ a {
 html,
 body {
   height: 100%;
-}
-body {
-  margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
 }

@@ -126,6 +126,19 @@
   }
   .contact-links {
     padding: 0;
+    a {
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    p {
+      display: flex;
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
   }
 }
 

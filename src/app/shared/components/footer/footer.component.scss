@@ -25,7 +25,6 @@ footer {
     padding-left: 20px;
     &:hover {
       color: #ffcd36;
-      text-decoration: underline;
     }
   }
   span:nth-child(1) {
@@ -64,11 +63,11 @@ footer {
     align-items: center;
     a {
       margin-right: 20px;
-    }
-    svg {
-      fill: #fff;
-      height: 30px;
-      width: 30px;
+      svg {
+        fill: #fff;
+        height: 30px;
+        width: 30px;
+      }
     }
   }
 }
