@@ -159,9 +159,21 @@
   }
 }
 
-@media screen and (max-width: 256) {
-  .decleor-block-info h1 {
+@media screen and (max-width: 480px) {
+  .decleor-block-info img {
+    width: 170px;
+  }
+
+  .decleor-block-info h2 {
     font-size: 1.5rem;
+  }
+
+  .decleor-block .decleor-block-info p {
+    font-size: 0.9rem;
+  }
+
+  .decleor-block-info p {
+    font-size: 0.9rem;
   }
 }
 

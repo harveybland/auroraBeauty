@@ -108,11 +108,15 @@
 @media only screen and (max-width: 650px) {
   .gallary-wrapper {
     .gallary {
-      grid-column-gap: 10px;
+      grid-column-gap: 00px;
       grid-template-columns: 1fr 1fr;
       div:nth-child(3) {
         display: none;
       }
     }
+  }
+
+  .tab-image {
+    border-radius: 0;
   }
 }

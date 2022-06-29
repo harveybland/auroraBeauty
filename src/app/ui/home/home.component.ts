@@ -1,6 +1,4 @@
-import { HomedialogComponent } from './homedialog/homedialog.component';
 import { Component, OnInit } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 
 @Component({
@@ -10,8 +8,7 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(public _router: Router,
-    public dialog: MatDialog) { }
+  constructor(public _router: Router) { }
 
 
   ngOnInit() {
@@ -51,10 +48,6 @@ export class HomeComponent implements OnInit {
     function removeActiveClass(element: any) {
       element.classList.remove('on');
     }
-  }
-
-  openDialog(): void {
-    const dialogRef = this.dialog.open(HomedialogComponent)
   }
 
 }

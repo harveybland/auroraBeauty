@@ -123,8 +123,17 @@
   }
 }
 
-@media screen and (max-width: 426px) {
-  .text h1 {
-    font-size: 1.5rem;
+@media screen and (max-width: 480px) {
+  .text {
+    h1 {
+      font-size: 1.5rem;
+    }
+    div {
+      font-size: 0.9rem;
+    }
+  }
+
+  .btn {
+    font-size: 1rem;
   }
 }

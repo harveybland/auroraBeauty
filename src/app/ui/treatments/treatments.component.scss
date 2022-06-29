@@ -169,7 +169,7 @@
   }
 }
 
-@media screen and (max-width: 462px) {
+@media screen and (max-width: 480px) {
   .template-header.massage {
     grid-template-columns: 1fr 60px 60px 60px;
     padding: 15px 10px 15px 15px;
@@ -178,6 +178,16 @@
   .template-info.massage {
     grid-template-columns: 1fr 60px 60px 60px;
     padding: 15px 10px 15px 15px;
+    font-size: 0.9rem;
+  }
+
+  .template-header .col-title {
+    font-size: 0.9rem;
+  }
+  .template-header .col-access {
+    font-size: 0.9rem;
+  }
+  .template-info {
     font-size: 0.9rem;
   }
 }
