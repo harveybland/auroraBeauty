@@ -32,7 +32,6 @@ export class DecleorComponent implements OnInit {
     function callback(entries: any, observer: any) {
       entries.forEach((entry: any) => {
         if (entry.isIntersecting) {
-          console.log(entry.target);
           addActiveClass(entry.target);
         } else if (!entry.isIntersecting) {
           removeActiveClass(entry.target);

@@ -24,11 +24,13 @@
     img:nth-child(1) {
       margin-right: -40px;
       height: 300px;
+      width: 260px;
       max-width: 300px;
     }
     img:nth-child(2) {
       height: 400px;
       max-width: 400px;
+      width: 360px;
       position: relative;
       z-index: 1;
     }
@@ -41,7 +43,7 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 20px;
-  h1 {
+  h2 {
     font-size: 1.7rem;
   }
   button {
@@ -58,6 +60,7 @@
 .decleor-block-img {
   img {
     height: 400px;
+    width: 400px;
     display: block;
   }
 }
@@ -71,14 +74,6 @@
   box-shadow: 0 4px 5px rgb(0 0 0 / 13%);
   border-radius: 5px;
   margin: 100px 0;
-}
-
-.repeat {
-  background-image: url("../../../assets/images/products/million/millionBanner.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
 }
 
 .fade-right {
