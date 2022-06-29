@@ -49,7 +49,7 @@ export class ContactComponent implements OnInit {
     e.preventDefault();
     emailjs.sendForm('service_46x836u', 'template_yqrgur2', e.target as HTMLFormElement, 'stusP_Nq081JUaNOy')
       .then((result: EmailJSResponseStatus) => {
-        this.emailSent = true
+        this.emailSent = true;
       }, (error: any) => {
         console.log(error.text);
       });

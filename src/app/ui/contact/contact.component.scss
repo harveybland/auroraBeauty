@@ -16,11 +16,17 @@
   padding: 0 20px 30px 20px;
   display: flex;
   justify-content: space-between;
+  div:nth-child(2) {
+    display: flex;
+  }
 }
 
 .contact {
   background-color: #585657;
   padding: 50px 60px 50px 35px;
+  margin: 50px 0;
+  margin-right: -150px;
+  position: relative;
   color: #eee;
   display: flex;
   flex-direction: column;
@@ -90,6 +96,8 @@
       margin: 10px 0px;
       font-size: 14px;
       padding-left: 10px;
+      padding-top: 5px;
+      resize: none;
     }
     button {
       border: none;
@@ -97,11 +105,16 @@
       background-color: #ffcd36;
       border-radius: 6px;
       color: #585657;
-      font-weight: 500;
+      font-weight: bolder;
       cursor: pointer;
       width: fit-content;
     }
   }
+}
+
+.bg-yellow {
+  background-color: #ffcd36;
+  width: 150px;
 }
 
 .hours-wrapper {
@@ -189,5 +202,9 @@
     flex-direction: column-reverse;
     display: flex;
     justify-content: space-between;
+    padding: 0 20px 0px 20px;
+  }
+  .contact-form form {
+    margin: 20px 00px 0 0;
   }
 }

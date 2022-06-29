@@ -1,23 +1,13 @@
 .max-width {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .medium-width {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 10px;
-}
-
-.small-width {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
-.container_1 {
-  padding: 130px 0 70px 0;
+  padding: 0 20px;
 }
 
 .flex {
@@ -35,14 +25,6 @@
   grid-template-columns: 1fr 1fr;
 }
 
-#wrapper {
-  height: 100%;
-}
-.parallax {
-  position: relative;
-  height: 400px;
-  overflow: hidden;
-}
 .img {
   position: absolute;
   top: -27%;
@@ -97,18 +79,6 @@
   padding-top: 30px;
   a {
     margin-right: 20px;
-  }
-}
-
-.icon {
-  font-size: 35px;
-  cursor: pointer;
-  &.fb {
-    color: #4267b2;
-  }
-  :hover {
-    transition: 0.3s;
-    opacity: 0.8;
   }
 }
 

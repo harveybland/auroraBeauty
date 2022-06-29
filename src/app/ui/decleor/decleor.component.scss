@@ -49,6 +49,7 @@
   }
   h2 {
     font-size: 1.7rem;
+    margin-bottom: 10px;
   }
   p {
     margin-bottom: 10px;
@@ -113,13 +114,22 @@
 @media screen and (max-width: 1000px) {
   .decleor-block {
     grid-template-columns: 1fr;
-    box-shadow: none;
+  }
+
+  .decleor-block .decleor-block-info {
+    padding: 0 20px 40px 20px;
+    h1 {
+      margin-bottom: 10px;
+    }
+    .decleor-button {
+      margin-top: 20px;
+    }
   }
 
   .decleor-block-info {
-    padding: 0 20px 20px !important;
-    h1 {
-      margin-bottom: 10px;
+    padding: 0px 20px 40px 20px;
+    .decleor-button {
+      margin-top: 20px;
     }
   }
 
@@ -146,12 +156,6 @@
     img:nth-child(2) {
       width: auto;
     }
-  }
-}
-
-@media screen and (max-width: 626px) {
-  .fav-img {
-    grid-template-columns: 1fr 1fr;
   }
 }
 
