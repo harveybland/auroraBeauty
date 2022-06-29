@@ -71,6 +71,7 @@ footer {
         fill: #fff;
         height: 30px;
         width: 30px;
+        display: block;
       }
     }
   }
@@ -136,6 +137,13 @@ footer {
       p {
         padding: 0;
         margin-bottom: 10px;
+      }
+    }
+    .footer-links {
+      a {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
       }
     }
   }

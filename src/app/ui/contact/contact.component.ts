@@ -12,7 +12,7 @@ export class ContactComponent implements OnInit {
   center!: google.maps.LatLngLiteral;
   markers: any;
   options: google.maps.MapOptions = {
-    scrollwheel: true,
+    scrollwheel: false,
     mapTypeControl: false,
     streetViewControl: false,
   }

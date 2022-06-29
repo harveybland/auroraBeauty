@@ -113,6 +113,7 @@
       text-align: center;
       border-bottom: 3px solid #e0bdb9;
       line-height: 0.1em;
+      font-size: 1.7rem;
       margin: 10px 0 35px;
       span {
         background: #fff;
@@ -121,22 +122,15 @@
     }
     p {
       padding-bottom: 10px;
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   }
   .contact-links {
-    padding: 0;
     a {
       svg {
         width: 30px;
         height: 30px;
-      }
-    }
-    p {
-      display: flex;
-      svg {
-        width: 30px;
-        height: 30px;
+        display: block;
       }
     }
   }
@@ -158,10 +152,10 @@
 @media screen and (max-width: 426px) {
   .employee-info {
     h2 {
-      font-size: 1.8rem;
+      font-size: 1.7rem;
     }
     p {
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   }
 }

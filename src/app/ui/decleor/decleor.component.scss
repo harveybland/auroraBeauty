@@ -12,7 +12,10 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
+    padding: 20px 40px;
+    p {
+      font-size: 1rem;
+    }
     button {
       margin-top: 20px;
     }
@@ -24,13 +27,11 @@
     img:nth-child(1) {
       margin-right: -40px;
       height: 300px;
-      width: 260px;
       max-width: 300px;
     }
     img:nth-child(2) {
       height: 400px;
       max-width: 400px;
-      width: 360px;
       position: relative;
       z-index: 1;
     }
@@ -42,25 +43,25 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding: 20px;
+  padding: 20px 40px;
+  img {
+    margin-bottom: 10px;
+  }
   h2 {
     font-size: 1.7rem;
+  }
+  p {
+    margin-bottom: 10px;
+    font-size: 1rem;
   }
   button {
     margin-top: 20px;
   }
-  div {
-    text-align: center;
-    p {
-      margin-bottom: 10px;
-    }
-  }
 }
 
 .decleor-block-img {
+  display: flex;
   img {
-    height: 400px;
-    width: 400px;
     display: block;
   }
 }
@@ -76,6 +77,7 @@
   margin: 100px 0;
 }
 
+// animation
 .fade-right {
   transform: translate(-35px, 0);
   transition: all 1.5s;
@@ -85,7 +87,6 @@
     transform: translate(0, 0);
   }
 }
-
 .fade-left {
   transform: translate(35px, 0);
   transition: all 1.5s;
@@ -93,7 +94,6 @@
     transform: translate(0, 0);
   }
 }
-
 .fadeIn {
   opacity: 0;
   transform: translate(0, 40px);
@@ -123,15 +123,12 @@
     }
   }
 
-  .favourtes {
-    .fav-img {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      div {
-        &.hide-img {
-          display: none;
-        }
-      }
+  .decleor-product {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &.reverse {
+      flex-direction: column-reverse;
     }
   }
 }
@@ -152,14 +149,6 @@
   }
 }
 
-@media screen and (max-width: 645px) {
-  .decleor-product {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
 @media screen and (max-width: 626px) {
   .fav-img {
     grid-template-columns: 1fr 1fr;
@@ -173,7 +162,25 @@
 }
 
 @media screen and (max-width: 420px) {
-  .fav-img {
-    grid-template-columns: 1fr;
+  .decleor-product {
+    margin: 60px 0;
+  }
+
+  .decleor-block {
+    .decleor-block-img {
+      img:nth-child(1) {
+        height: 200px;
+        max-width: 200px;
+      }
+      img:nth-child(2) {
+        height: 300px;
+        max-width: 300px;
+      }
+    }
+  }
+
+  .decleor-block-img img {
+    width: 300px;
+    height: 300px;
   }
 }

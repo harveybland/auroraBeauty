@@ -34,7 +34,7 @@ button {
   h2 {
     margin-bottom: 15px;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
   p {
     margin-top: 15px;
@@ -116,19 +116,21 @@ button {
       margin-bottom: 15px;
       display: flex;
       align-items: center;
+      font-size: 1rem;
     }
   }
   h2 {
     margin-bottom: 15px;
   }
   .treatment-button {
-    margin-bottom: 20px;
+    margin-top: 20px;
     p {
       display: flex;
-      svg {
-        width: 30px;
-        height: 30px;
-      }
+    }
+    svg {
+      width: 30px;
+      height: 30px;
+      display: block;
     }
   }
 }
@@ -256,9 +258,7 @@ button {
   .carousel-item1 h1 {
     font-size: 2rem;
   }
-}
 
-@media only screen and (max-width: 730px) {
   .review-wrapper .review-flex {
     display: flex;
     flex-direction: column;
@@ -269,7 +269,15 @@ button {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 480px) {
+  .home-block {
+    padding: 0;
+  }
+
+  .home-wrapper {
+    padding: 20px;
+  }
+
   .carousel-item1 h1 {
     font-size: 1.6rem;
   }

@@ -80,15 +80,16 @@ nav {
   font-size: 1rem;
   cursor: pointer;
   background-color: transparent;
-  border: 1.5px solid #f2f5f7;
+  border: 2px solid #f2f5f7;
   border-radius: 2em;
   height: auto !important;
+  transition: all ease-in-out 200ms;
 }
 
 .contact-button:hover {
   color: #000;
   background-color: #ffcd36 !important;
-  border: 1.5px solid #ffcd36;
+  border: 2px solid #ffcd36;
 }
 
 /*Navigation Icon Styling*/
