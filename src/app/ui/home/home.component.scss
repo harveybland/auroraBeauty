@@ -286,4 +286,15 @@ button {
   .home-banner .home-banner-inner {
     display: none;
   }
+
+  .home-block {
+    .home-block-info {
+      div {
+        font-size: 0.9rem;
+      }
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
 }
