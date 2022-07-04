@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContactComponent } from './contact.component';
 import { GoogleMapsModule } from '@angular/google-maps'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 const routes: Routes = [
   {
@@ -15,8 +16,14 @@ const routes: Routes = [
   imports: [
     CommonModule,
     GoogleMapsModule,
+    ReactiveFormsModule,
+    FormsModule,
     RouterModule.forChild(routes),
   ],
-  declarations: [ContactComponent]
+  declarations: [ContactComponent],
+  exports: [
+    FormsModule,
+    ReactiveFormsModule,
+  ]
 })
 export class ContactModule { }
